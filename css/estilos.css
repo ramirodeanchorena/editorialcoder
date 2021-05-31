@@ -149,10 +149,10 @@ body {
 /*estilo de la clase "encabezado" para todos los .html*/
 .encabezado {
   height: 50vh;
-  background-image: url(/img/libross.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-clip: content-box; }
+  background-clip: content-box;
+  background-image: url(/img/libross.jpg); }
   .encabezado .encabezado__logo {
     border-radius: 2%; }
   .encabezado .encabezado__menu {

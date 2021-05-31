@@ -1,0 +1,84 @@
+/* nosotros.html */
+
+/*variables*/
+$col-nosotros: rgb(160, 138, 180);
+$col-titulo: blue;
+$col-border: black;
+$underline: underline;
+
+@mixin espacio($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+.nosotros{
+    /*aplicar grid en clase .nosotros correspondiente a nosotros.html*/
+    display: grid;
+    grid-template-areas: 
+        "titulo titulo"
+        "historia staff"
+        "historia staff";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 40% 40%;
+    background-color: $col-nosotros;
+    @include espacio(100%, 100%);
+    
+    .nosotros__titulo{
+        /*modelar el título en nosotros.html*/
+        grid-area: titulo;
+        border: solid 2px $col-border;
+        padding-top: 7px;
+        padding-bottom: 0px;
+        background-color:rgb(110, 164, 185);
+        margin: 5px 5px 5px 5px;
+        height: 60%;
+    }
+
+    .nosotros__titulo--estilo{
+        text-decoration: $underline;
+        color: $col-titulo;
+    }
+}
+
+.historia{
+    /*para darle estilo y fuente Raleway de Google Fonts al párrafo ubicado en nosotros.html*/
+    grid-area: historia;
+    border: solid 2px $col-border;
+    padding: 20px;
+    text-align: justify;
+    line-height: 20px;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(152, 210, 228);
+    margin: 0px 2.5px 5px 5px;
+    height: 100%;
+
+    .historia__titulo{
+    /*características al h3 de la class historia*/
+    text-decoration: $underline;
+    margin-left: 0;
+    }
+
+    .historia__titulo--fuente{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.staff{
+    /*para darle estilo y fuente de Google Fonts a la sección "Nuestro staff" de nosotros.html*/
+    grid-area: staff;
+    border: solid 2px $col-border;
+    padding: 20px;
+    line-height: 35px;
+    background-color: rgb(126, 143, 189);
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: double;
+    margin: 0px 5px 5px 2.5px;
+    height: 100%;
+}
+
+.staff h3{
+    /*características al h3 de la class staff*/
+    margin-left: 15px;
+    text-decoration: $underline;
+}
+

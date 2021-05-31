@@ -1,0 +1,308 @@
+@charset "UTF-8";
+/*estilo en catalogo.html*/
+/* catalogo.html */
+/*variables*/
+.tituloCatalogo {
+  /*para que la etiqueta h3 de la sección catalogo.html sea de color rgb(59, 57, 58)*/
+  color: #3b393a; }
+
+.catalogo {
+  /*para organizar el catálogo a partir de grid*/
+  margin: 10px 10px 10px 10px;
+  display: grid;
+  grid-template-columns: 100px 75px 100px 150px;
+  grid-template-rows: 5px 25px 25px 75px;
+  background-color: #d1caac;
+  gap: 100px;
+  align-content: center; }
+  .catalogo .catalogo__primeraLinea {
+    /*primera línea del catálogo*/
+    color: black;
+    font-weight: bolder; }
+  .catalogo .catalogo__autores {
+    list-style: none;
+    justify-content: center;
+    padding-left: 0px;
+    padding-top: auto; }
+
+/*estilo en autores.html*/
+/* autores.html */
+/*variables*/
+.autores {
+  /*para aplicar flexbox a autores.html*/
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100px; }
+  .autores .autores__bossi {
+    /*para modelar la clase .autores__bossi*/
+    margin: 10px 10px 10px 10px;
+    text-align: justify;
+    padding-right: 10px; }
+  .autores .autores__bossi--foto {
+    border-radius: 2%; }
+  .autores .autores__gonzalez {
+    /*para modelar la clase .gonzalez*/
+    margin: 10px 10px 10px 10px;
+    text-align: justify;
+    padding-right: 10px; }
+  .autores .autores__gonzalez--foto {
+    border-radius: 2%; }
+  .autores p {
+    width: 47%;
+    color: black; }
+
+/*más caracaterísticas en bloque clase "autores"*/
+.autores .btn {
+  text-align: left;
+  justify-content: left;
+  background-color: royalblue;
+  margin-left: 10px;
+  margin-top: 5px; }
+
+.autores li h3 {
+  /*para que los nombres de los autores en la lista de la sección autores.html sean de color negro*/
+  color: black; }
+
+.autores ul {
+  /*para brindarle bordes a cada class correspondiente a un autor*/
+  border: solid 2px black;
+  list-style: none; }
+
+/*modelar el bloque clase "entrevista" en autores.html*/
+.entrevista {
+  /*modelar la entrevista en video en autores.html*/
+  border: solid 2px black;
+  margin: 10px;
+  padding: 10px; }
+  .entrevista .entrevista__titulo {
+    text-decoration: underline; }
+  .entrevista .entrevista__video {
+    border-color: black; }
+
+/*formato, estilo y grid en nosotros.html*/
+/* nosotros.html */
+/*variables*/
+.nosotros {
+  /*aplicar grid en clase .nosotros correspondiente a nosotros.html*/
+  display: grid;
+  grid-template-areas: "titulo titulo" "historia staff" "historia staff";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20% 40% 40%;
+  background-color: #a08ab4;
+  width: 100%;
+  height: 100%; }
+  .nosotros .nosotros__titulo {
+    /*modelar el título en nosotros.html*/
+    grid-area: titulo;
+    border: solid 2px black;
+    padding-top: 7px;
+    padding-bottom: 0px;
+    background-color: #6ea4b9;
+    margin: 5px 5px 5px 5px;
+    height: 60%; }
+  .nosotros .nosotros__titulo--estilo {
+    text-decoration: underline;
+    color: blue; }
+
+.historia {
+  /*para darle estilo y fuente Raleway de Google Fonts al párrafo ubicado en nosotros.html*/
+  grid-area: historia;
+  border: solid 2px black;
+  padding: 20px;
+  text-align: justify;
+  line-height: 20px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #98d2e4;
+  margin: 0px 2.5px 5px 5px;
+  height: 100%; }
+  .historia .historia__titulo {
+    /*características al h3 de la class historia*/
+    text-decoration: underline;
+    margin-left: 0; }
+  .historia .historia__titulo--fuente {
+    font-family: Arial, Helvetica, sans-serif; }
+
+.staff {
+  /*para darle estilo y fuente de Google Fonts a la sección "Nuestro staff" de nosotros.html*/
+  grid-area: staff;
+  border: solid 2px black;
+  padding: 20px;
+  line-height: 35px;
+  background-color: #7e8fbd;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-decoration: double;
+  margin: 0px 5px 5px 2.5px;
+  height: 100%; }
+
+.staff h3 {
+  /*características al h3 de la class staff*/
+  margin-left: 15px;
+  text-decoration: underline; }
+
+/*estilo del body para todos los archivos .html*/
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #dad6d6; }
+
+/*estilo de la clase "encabezado" para todos los .html*/
+.encabezado {
+  height: 50vh;
+  background-image: url(/img/libross.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box; }
+  .encabezado .encabezado__logo {
+    border-radius: 2%; }
+  .encabezado .encabezado__menu {
+    /*para editar el formato del menú y aplicar flexbox*/
+    width: 40vw;
+    height: 8vh;
+    margin-top: 13px;
+    padding-left: 0px;
+    list-style: none;
+    font-size: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap; }
+
+/*más estilos para el menú del encabezado*/
+ul li > a {
+  /*para otorgar formato a las palabras del menú de navegación, estilo y color whitesmoke*/
+  width: 10px;
+  position: relative;
+  padding: 15px;
+  justify-content: left;
+  color: whitesmoke;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-size: 15px; }
+
+nav ul ul {
+  /*para establecer el submenu*/
+  position: absolute;
+  display: none;
+  padding-left: 5px;
+  margin-top: 5px; }
+
+nav ul ul li {
+  /*características de los elementos del submenú*/
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 5px; }
+
+nav ul li:hover ul {
+  /*display del submenú del encabezado*/
+  display: block; }
+
+/*estilo para el <main> de index.html*/
+/*estilo al h1 y a la clase subtítutlo para los archivos .html donde sean utilizados*/
+h1 {
+  color: #145f91;
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 10px;
+  padding-top: 0px; }
+
+.subtitulo {
+  /*para darle color y modificar la fuente del subtítulo*/
+  color: #413f3f;
+  font-family: 'Times New Roman', Times, serif cursive;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 2px; }
+
+.imagen {
+  /*formato a la imagen de h1 en index.html*/
+  display: block;
+  margin: auto; }
+
+.novedades {
+  margin-top: 10px; }
+
+.carousel-control-prev-icon {
+  /*carousel en index.html*/
+  background-color: black !important; }
+
+.carousel-control-next-icon {
+  background-color: black; }
+
+/*estilo a la sección publicaciones en index.html*/
+#seccionPublicaciones {
+  margin-top: 20px; }
+
+.titulo, .editor .editor__video {
+  width: auto;
+  height: 10vh;
+  padding-top: 10px;
+  font-family: inherit;
+  text-decoration: underline;
+  padding-left: 0%; }
+
+/*estilo al bloque .publicaciones*/
+.publicaciones {
+  width: 100%;
+  /*estilo a las fotos de los libros y sus nombres en la clase publicaciones*/ }
+  .publicaciones .publicaciones__libroUno {
+    color: white; }
+  .publicaciones .publicaciones__libroUno--foto1, .publicaciones .publicaciones__libroDos--foto2, .publicaciones .publicaciones__libroTres--foto3, .publicaciones .publicaciones__libroCuatro--foto4, .publicaciones .publicaciones__libroQuinto--foto5, .publicaciones .publicaciones__libroSexto--foto6 {
+    /*imagen del primer libro en #seccionPublicaciones*/
+    width: 15vw;
+    height: 45vh;
+    margin-left: 20px; }
+  .publicaciones .publicaciones__libroUno--nombre1 {
+    /*características al nombre del libro1*/
+    color: black;
+    margin-left: 60px; }
+  .publicaciones .publicaciones__libroDos--nombre2 {
+    color: black;
+    margin-left: 60px; }
+  .publicaciones .publicaciones__libroTres--nombre3 {
+    color: black;
+    margin-left: 60px; }
+  .publicaciones .publicaciones__libroCuatro--nombre4 {
+    color: black;
+    margin-left: 60px; }
+  .publicaciones .publicaciones__libroQuinto--nombre5 {
+    color: black;
+    margin-left: 60px; }
+  .publicaciones .publicaciones__libroSexto--nombre6 {
+    color: black;
+    margin-left: 60px; }
+
+/*estilo para resaltar libros nuevos en sección publicaciones de index-html*/
+.badge {
+  background-color: #145f91 !important; }
+
+/*estilo a la clase "editor" de index.html*/
+.editor {
+  /*para modificar el margen superior del video perteneciente a index.html*/
+  border: solid 3px black;
+  margin: 10px 70px 10px 70px;
+  padding: 20px;
+  background-color: #ada5a5; }
+  .editor .editor__video {
+    /*para centrar el texto de la class="video"*/
+    text-align: center;
+    padding: bottom 5px; }
+  .editor .editor__video--bordes {
+    border-color: black; }
+
+/*footer*/
+#pie {
+  background-image: linear-gradient(to right, black, grey);
+  height: 40vh; }
+
+/*estilo al archivo contacto.html*/
+#formulario {
+  /*para brindarle color al texto y al fondo del formulario en la página contacto.html*/
+  color: black;
+  background-color: grey; }
+
+.construccion {
+  justify-content: center;
+  text-align: center; }

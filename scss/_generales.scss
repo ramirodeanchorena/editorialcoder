@@ -1,0 +1,72 @@
+@mixin espacio($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+/*estilo del body para todos los archivos .html*/
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #dad6d6;
+}
+
+/*estilo de la clase "encabezado" para todos los .html*/
+.encabezado{
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    background-image: url(../img/libross.jpg);
+    .encabezado__logo{
+        border-radius: 2%;
+    }
+
+    .encabezado__menu{
+        /*para editar el formato del menú y aplicar flexbox*/
+        @include espacio(40vw, 8vh);
+        margin-top: 13px;
+        padding-left: 0px;
+        list-style: none;
+        font-size: 0px;
+        display:flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+    }   
+}
+
+/*más estilos para el menú del encabezado*/
+ul li>a{
+    /*para otorgar formato a las palabras del menú de navegación, estilo y color whitesmoke*/
+    width: 10px;
+    position: relative;
+    padding: 15px;
+    justify-content: left;
+    color:whitesmoke;
+    text-decoration:none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+nav ul ul{
+    /*para establecer el submenu*/
+    position:absolute;
+    display: none;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+nav ul ul li{
+    /*características de los elementos del submenú*/
+    display:block;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+nav ul li:hover ul{
+    /*display del submenú del encabezado*/
+    display:block;
+}

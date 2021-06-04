@@ -70,3 +70,27 @@ nav ul li:hover ul{
     /*display del submenú del encabezado*/
     display:block;
 }
+
+/*estilo al h1 y a la clase subtítutlo para los archivos .html donde sean utilizados*/
+h1{
+    color:rgb(20, 95, 145);
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 10px;
+    padding-top: 0px;
+}
+
+.subtitulo{
+    /*para darle color y modificar la fuente del subtítulo*/
+    color: rgb(65, 63, 63);
+    font-family:'Times New Roman', Times, serif cursive;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 2px;
+}
+
+.imagen{
+    /*formato a la imagen de h1 en index.html*/
+    display: block;
+    margin:auto;
+}

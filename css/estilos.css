@@ -1,4 +1,76 @@
 @charset "UTF-8";
+/*estilo para el <main> de index.html*/
+.novedades {
+  margin-top: 10px; }
+
+.carousel-control-prev-icon {
+  /*carousel en index.html*/
+  background-color: black !important; }
+
+.carousel-control-next-icon {
+  background-color: black; }
+
+/*estilo a la sección publicaciones en index.html*/
+#seccionPublicaciones {
+  margin-top: 20px; }
+
+.titulo, .editor .editor__video {
+  width: auto;
+  height: 10vh;
+  padding-top: 10px;
+  font-family: inherit;
+  text-decoration: underline;
+  padding-left: 0%; }
+
+/*estilo al bloque .publicaciones*/
+.publicaciones {
+  width: 100%;
+  /*estilo a las fotos de los libros y sus nombres en la clase publicaciones*/ }
+  .publicaciones .publicaciones__libroUno {
+    color: white; }
+  .publicaciones .publicaciones__libroUno--foto1, .publicaciones .publicaciones__libroDos--foto2, .publicaciones .publicaciones__libroTres--foto3, .publicaciones .publicaciones__libroCuatro--foto4, .publicaciones .publicaciones__libroQuinto--foto5, .publicaciones .publicaciones__libroSexto--foto6 {
+    /*imagen del primer libro en #seccionPublicaciones*/
+    width: 15vw;
+    height: 45vh;
+    margin-left: 20px; }
+  .publicaciones .publicaciones__libroUno--nombre1 {
+    /*características al nombre del libro1*/
+    color: black;
+    margin-left: 60px; }
+  .publicaciones .publicaciones__libroDos--nombre2 {
+    color: black;
+    margin-left: 60px; }
+  .publicaciones .publicaciones__libroTres--nombre3 {
+    color: black;
+    margin-left: 60px; }
+  .publicaciones .publicaciones__libroCuatro--nombre4 {
+    color: black;
+    margin-left: 60px; }
+  .publicaciones .publicaciones__libroQuinto--nombre5 {
+    color: black;
+    margin-left: 60px; }
+  .publicaciones .publicaciones__libroSexto--nombre6 {
+    color: black;
+    margin-left: 60px; }
+
+/*estilo para resaltar libros nuevos en sección publicaciones de index-html*/
+.badge {
+  background-color: #145f91 !important; }
+
+/*estilo a la clase "editor" de index.html*/
+.editor {
+  /*para modificar el margen superior del video perteneciente a index.html*/
+  border: solid 3px black;
+  margin: 10px 70px 10px 70px;
+  padding: 20px;
+  background-color: #ada5a5; }
+  .editor .editor__video {
+    /*para centrar el texto de la class="video"*/
+    text-align: center;
+    padding: bottom 5px; }
+  .editor .editor__video--bordes {
+    border-color: black; }
+
 /*estilo del body para todos los archivos .html*/
 body {
   display: flex;
@@ -58,6 +130,27 @@ nav ul ul li {
 nav ul li:hover ul {
   /*display del submenú del encabezado*/
   display: block; }
+
+/*estilo al h1 y a la clase subtítutlo para los archivos .html donde sean utilizados*/
+h1 {
+  color: #145f91;
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 10px;
+  padding-top: 0px; }
+
+.subtitulo {
+  /*para darle color y modificar la fuente del subtítulo*/
+  color: #413f3f;
+  font-family: 'Times New Roman', Times, serif cursive;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 2px; }
+
+.imagen {
+  /*formato a la imagen de h1 en index.html*/
+  display: block;
+  margin: auto; }
 
 /*estilo en catalogo.html*/
 /* catalogo.html */
@@ -145,7 +238,9 @@ nav ul li:hover ul {
 .nosotros {
   /*aplicar grid en clase .nosotros correspondiente a nosotros.html*/
   display: grid;
-  grid-template-areas: "titulo titulo" "historia staff" "historia staff";
+  grid-template-areas: "titulo titulo"
+ "historia staff"
+ "historia staff";
   grid-template-columns: 50% 50%;
   grid-template-rows: 20% 40% 40%;
   background-color: #a08ab4;
@@ -198,99 +293,6 @@ nav ul li:hover ul {
   /*características al h3 de la class staff*/
   margin-left: 15px;
   text-decoration: underline; }
-
-/*estilo para el <main> de index.html*/
-/*estilo al h1 y a la clase subtítutlo para los archivos .html donde sean utilizados*/
-h1 {
-  color: #145f91;
-  text-align: center;
-  font-family: sans-serif;
-  line-height: 10px;
-  padding-top: 0px; }
-
-.subtitulo {
-  /*para darle color y modificar la fuente del subtítulo*/
-  color: #413f3f;
-  font-family: 'Times New Roman', Times, serif cursive;
-  text-align: center;
-  padding-top: 0px;
-  padding-bottom: 2px; }
-
-.imagen {
-  /*formato a la imagen de h1 en index.html*/
-  display: block;
-  margin: auto; }
-
-.novedades {
-  margin-top: 10px; }
-
-.carousel-control-prev-icon {
-  /*carousel en index.html*/
-  background-color: black !important; }
-
-.carousel-control-next-icon {
-  background-color: black; }
-
-/*estilo a la sección publicaciones en index.html*/
-#seccionPublicaciones {
-  margin-top: 20px; }
-
-.titulo, .editor .editor__video {
-  width: auto;
-  height: 10vh;
-  padding-top: 10px;
-  font-family: inherit;
-  text-decoration: underline;
-  padding-left: 0%; }
-
-/*estilo al bloque .publicaciones*/
-.publicaciones {
-  width: 100%;
-  /*estilo a las fotos de los libros y sus nombres en la clase publicaciones*/ }
-  .publicaciones .publicaciones__libroUno {
-    color: white; }
-  .publicaciones .publicaciones__libroUno--foto1, .publicaciones .publicaciones__libroDos--foto2, .publicaciones .publicaciones__libroTres--foto3, .publicaciones .publicaciones__libroCuatro--foto4, .publicaciones .publicaciones__libroQuinto--foto5, .publicaciones .publicaciones__libroSexto--foto6 {
-    /*imagen del primer libro en #seccionPublicaciones*/
-    width: 15vw;
-    height: 45vh;
-    margin-left: 20px; }
-  .publicaciones .publicaciones__libroUno--nombre1 {
-    /*características al nombre del libro1*/
-    color: black;
-    margin-left: 60px; }
-  .publicaciones .publicaciones__libroDos--nombre2 {
-    color: black;
-    margin-left: 60px; }
-  .publicaciones .publicaciones__libroTres--nombre3 {
-    color: black;
-    margin-left: 60px; }
-  .publicaciones .publicaciones__libroCuatro--nombre4 {
-    color: black;
-    margin-left: 60px; }
-  .publicaciones .publicaciones__libroQuinto--nombre5 {
-    color: black;
-    margin-left: 60px; }
-  .publicaciones .publicaciones__libroSexto--nombre6 {
-    color: black;
-    margin-left: 60px; }
-
-/*estilo para resaltar libros nuevos en sección publicaciones de index-html*/
-.badge {
-  background-color: #145f91 !important; }
-
-/*estilo a la clase "editor" de index.html*/
-.editor {
-  /*para modificar el margen superior del video perteneciente a index.html*/
-  border: solid 3px black;
-  margin: 10px 70px 10px 70px;
-  padding: 20px;
-  background-color: #ada5a5; }
-  .editor .editor__video {
-    /*para centrar el texto de la class="video"*/
-    text-align: center;
-    padding: bottom 5px; }
-  .editor .editor__video--bordes {
-    border-color: black; }
 
 /*footer*/
 #pie {

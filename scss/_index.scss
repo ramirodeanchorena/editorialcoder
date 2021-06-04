@@ -1,3 +1,5 @@
+/*estilo en el archivo index.html*/
+
 @mixin espacio($ancho, $alto){
     width: $ancho;
     height: $alto;
@@ -8,15 +10,13 @@
     margin-left: $marginleft;
 }
 
-/*estilo para el <main> de index.html*/
-
-
-
-.novedades{
+/*estilo en <main> para la clases, etquietas e ID allí incluidos*/
+.novedades{ /*estilo a la clase .novedades del main*/
     margin-top: 10px;
 }
 
-.carousel-control-prev-icon{     /*carousel en index.html*/
+/*carousel en index.html*/
+.carousel-control-prev-icon{     
     background-color: black !important;
 }
 
@@ -24,11 +24,12 @@
     background-color: black;
 }
 
-/*estilo a la sección publicaciones en index.html*/
+/*estilo al ID de la sección publicaciones*/
 #seccionPublicaciones{
     margin-top: 20px;
 }
 
+/*estilo al títutlo de la sección publicaciones*/
 .titulo{
     @include espacio(auto, 10vh);
     padding-top: 10px;
@@ -42,19 +43,19 @@
 
     width: 100%;
 
+    /*estilo a las fotos y al texto de cada libro de esta sección*/
     .publicaciones__libroUno{
         color: white;
     }
 
+    /*imagen del primer libro en #seccionPublicaciones*/
     .publicaciones__libroUno--foto1{
-        /*imagen del primer libro en #seccionPublicaciones*/
         @include espacio(15vw, 45vh);
         margin-left: 20px;
     }
     
-    /*estilo a las fotos de los libros y sus nombres en la clase publicaciones*/
+    /*características al nombre del libro1*/
     .publicaciones__libroUno--nombre1{
-        /*características al nombre del libro1*/
         @include col-margin(black, 60px);
     }
 
@@ -100,21 +101,20 @@
 
 }
 
-/*estilo para resaltar libros nuevos en sección publicaciones de index-html*/
+/*estilo para resaltar libros nuevos en sección publicaciones*/
 .badge{
     background-color: rgb(20, 95, 145) !important;
 }
 
-/*estilo a la clase "editor" de index.html*/
-.editor{
-    /*para modificar el margen superior del video perteneciente a index.html*/
+/*estilo a la clase "editor"*/
+.editor{ /*para modificar el margen superior del video perteneciente a index.html*/
     border: solid 3px black;
     margin: 10px 70px 10px 70px;
     padding: 20px;
     background-color: rgb(173, 165, 165);
 
+    /*para centrar el texto de la clase .video*/
     .editor__video{
-        /*para centrar el texto de la class="video"*/
         @extend .titulo;
         text-align: center;
         padding: bottom 5px;

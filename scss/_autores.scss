@@ -1,4 +1,4 @@
-/* autores.html */
+/* estilo en autores.html */
 
 /*variables*/
 $margin-autores: 10px 10px 10px 10px;
@@ -6,14 +6,14 @@ $margin: 20px;
 $bor-radius: 2%;
 $border: solid 2px black;
 
+/*para aplicar flexbox a autores.html*/
 .autores{
-    /*para aplicar flexbox a autores.html*/
     display: flex;
     flex-direction: column;
     flex-basis: 100px;
 
-    .autores__bossi{
-        /*para modelar la clase .autores__bossi*/
+    /*para dar estilo a las imágenes y texto de cada autor*/
+    .autores__bossi{ /*para modelar la clase .autores__bossi*/
         margin: $margin-autores;
         text-align: justify;
         padding-right: 10px;
@@ -23,8 +23,7 @@ $border: solid 2px black;
         border-radius: $bor-radius;
     }
 
-    .autores__gonzalez{
-        /*para modelar la clase .gonzalez*/
+    .autores__gonzalez{ /*para modelar la clase .gonzalez*/
         margin: $margin-autores;
         text-align: justify;
         padding-right: 10px;
@@ -40,7 +39,7 @@ $border: solid 2px black;
     }
 }
 
-/*más caracaterísticas en bloque clase "autores"*/
+/*más caracaterísticas en el bloque de la clase "autores"*/
 .autores .btn{
     text-align: left;
     justify-content: left;
@@ -49,20 +48,18 @@ $border: solid 2px black;
     margin-top: ($margin)-15;
 }
 
+/*para que los nombres de los autores en la lista de la sección autores.html sean de color negro*/
 .autores li h3{
-    /*para que los nombres de los autores en la lista de la sección autores.html sean de color negro*/
     color: black;
-}
 
+/*para brindarle bordes a cada class correspondiente a un autor*/}
 .autores ul{
-    /*para brindarle bordes a cada class correspondiente a un autor*/
     border: $border;
     list-style: none;
 }
 
-/*modelar el bloque clase "entrevista" en autores.html*/
-.entrevista{
-    /*modelar la entrevista en video en autores.html*/
+/*modelar el bloque clase "entrevista"*/
+.entrevista{  /*modelar la entrevista en video en autores.html*/
     border: $border;
     margin: 10px;
     padding: 10px;

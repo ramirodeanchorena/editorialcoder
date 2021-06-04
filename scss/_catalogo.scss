@@ -1,16 +1,16 @@
-/* catalogo.html */
+/*estilo en el archivo catalogo.html */
 
 /*variables*/
 $col-titulo: rgb(59, 57, 58);
 $col-catalogo: rgb(209, 202, 172);
 
+/*para que la etiqueta h3 de esta sección sea de color rgb(59, 57, 58)*/
 .tituloCatalogo{
-    /*para que la etiqueta h3 de la sección catalogo.html sea de color rgb(59, 57, 58)*/
     color: $col-titulo;
 }
 
+/*para organizar el catálogo a partir de grid*/
 .catalogo{
-    /*para organizar el catálogo a partir de grid*/
     margin: 10px 10px 10px 10px;
     display: grid;
     grid-template-columns: 100px 75px 100px 150px;
@@ -19,8 +19,7 @@ $col-catalogo: rgb(209, 202, 172);
     gap: 100px;
     align-content: center; 
     
-    .catalogo__primeraLinea{
-        /*primera línea del catálogo*/
+    .catalogo__primeraLinea{  /*primera línea del catálogo*/
         color: black;
         font-weight: bolder;
     }

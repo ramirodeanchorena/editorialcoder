@@ -1,4 +1,4 @@
-/* nosotros.html */
+/* estilo en el archivo nosotros.html */
 
 /*variables*/
 $col-nosotros: rgb(160, 138, 180);
@@ -11,8 +11,8 @@ $underline: underline;
     height: $alto;
 }
 
+/*aplicar grid en la clase .nosotros*/
 .nosotros{
-    /*aplicar grid en clase .nosotros correspondiente a nosotros.html*/
     display: grid;
     grid-template-areas: 
         "titulo titulo"
@@ -23,8 +23,8 @@ $underline: underline;
     background-color: $col-nosotros;
     @include espacio(100%, 100%);
     
+    /*modelar el título del archivo*/
     .nosotros__titulo{
-        /*modelar el título en nosotros.html*/
         grid-area: titulo;
         border: solid 2px $col-border;
         padding-top: 7px;
@@ -40,8 +40,8 @@ $underline: underline;
     }
 }
 
+/*para darle estilo y fuente Raleway de Google Fonts al párrafo de la página*/
 .historia{
-    /*para darle estilo y fuente Raleway de Google Fonts al párrafo ubicado en nosotros.html*/
     grid-area: historia;
     border: solid 2px $col-border;
     padding: 20px;
@@ -52,8 +52,7 @@ $underline: underline;
     margin: 0px 2.5px 5px 5px;
     height: 100%;
 
-    .historia__titulo{
-    /*características al h3 de la class historia*/
+    .historia__titulo{ /*características al h3 de la class historia*/
     text-decoration: $underline;
     margin-left: 0;
     }
@@ -63,8 +62,8 @@ $underline: underline;
     }
 }
 
+ /*para darle estilo y fuente de Google Fonts a la sección "Nuestro staff"*/
 .staff{
-    /*para darle estilo y fuente de Google Fonts a la sección "Nuestro staff" de nosotros.html*/
     grid-area: staff;
     border: solid 2px $col-border;
     padding: 20px;
@@ -76,9 +75,8 @@ $underline: underline;
     height: 100%;
 }
 
+/*características al h3 de la class staff*/
 .staff h3{
-    /*características al h3 de la class staff*/
     margin-left: 15px;
     text-decoration: $underline;
 }
-

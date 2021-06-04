@@ -1,3 +1,4 @@
+/*estilo de clases y etiquetas comunes en los archivos .html*/
 @mixin espacio($ancho, $alto){
     width: $ancho;
     height: $alto;
@@ -11,7 +12,7 @@ body{
     background-color: #dad6d6;
 }
 
-/*estilo de la clase "encabezado" para todos los .html*/
+/*estilo de la clase "encabezado" para todos los archivos .html, incluyendo el menú y el logo*/
 .encabezado{
     height: 50vh;
     background-repeat: no-repeat;
@@ -23,7 +24,6 @@ body{
     }
 
     .encabezado__menu{
-        /*para editar el formato del menú y aplicar flexbox*/
         @include espacio(40vw, 8vh);
         margin-top: 13px;
         padding-left: 0px;
@@ -37,9 +37,8 @@ body{
     }   
 }
 
-/*más estilos para el menú del encabezado*/
+/*más estilos para el menú del encabezado (header)*/
 ul li>a{
-    /*para otorgar formato a las palabras del menú de navegación, estilo y color whitesmoke*/
     width: 10px;
     position: relative;
     padding: 15px;
@@ -51,27 +50,27 @@ ul li>a{
     font-size: 15px;
 }
 
+/*para establecer el submenú en el header*/
 nav ul ul{
-    /*para establecer el submenu*/
     position:absolute;
     display: none;
     padding-left: 5px;
     margin-top: 5px;
 }
 
+/*características de los elementos del submenú*/
 nav ul ul li{
-    /*características de los elementos del submenú*/
     display:block;
     margin-top: 2px;
     margin-bottom: 5px;
 }
 
+/*display del submenú del encabezado*/
 nav ul li:hover ul{
-    /*display del submenú del encabezado*/
     display:block;
 }
 
-/*estilo al h1 y a la clase subtítutlo para los archivos .html donde sean utilizados*/
+/*estilo a la etiqueta h1 para los archivos .html donde sea utilizados*/
 h1{
     color:rgb(20, 95, 145);
     text-align: center;
@@ -80,8 +79,8 @@ h1{
     padding-top: 0px;
 }
 
+/*para darle color y modificar la fuente de la clase subtítulo*/
 .subtitulo{
-    /*para darle color y modificar la fuente del subtítulo*/
     color: rgb(65, 63, 63);
     font-family:'Times New Roman', Times, serif cursive;
     text-align: center;
@@ -89,8 +88,14 @@ h1{
     padding-bottom: 2px;
 }
 
+/*estilo a la imagen de la etiqueta h1 en los archivos html donde sea utilizada*/
 .imagen{
-    /*formato a la imagen de h1 en index.html*/
     display: block;
     margin:auto;
+}
+
+/*footer*/
+#pie{
+    background-image: linear-gradient(to right, black, grey);
+    height: 40vh;
 }

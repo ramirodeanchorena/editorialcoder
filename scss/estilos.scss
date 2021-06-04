@@ -1,43 +1,13 @@
-@import "index";
-
 @import "generales";
 
-/*estilo en catalogo.html*/
+@import "index";
+
 @import "catalogo";
 
-/*estilo en autores.html*/
 @import "autores";
 
-/*formato, estilo y grid en nosotros.html*/
 @import "nosotros";
 
-@mixin espacio($ancho, $alto){
-    width: $ancho;
-    height: $alto;
-}
+@import "contacto";
 
-@mixin col-margin ($color, $marginleft){
-    color: $color;
-    margin-left: $marginleft;
-}
-
-
-
-/*footer*/
-#pie{
-    background-image: linear-gradient(to right, black, grey);
-    height: 40vh;
-}
-
-
-/*estilo al archivo contacto.html*/
-#formulario{
-    /*para brindarle color al texto y al fondo del formulario en la página contacto.html*/
-    color: black;
-    background-color: grey;
-}
-
-.construccion{
-    justify-content: center;
-    text-align: center;
-}
+@import "p404";

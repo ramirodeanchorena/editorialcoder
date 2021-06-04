@@ -1,14 +1,14 @@
 {
-  "name": "proyecto",
+  "name": "editorialcoder",
   "version": "1.0.0",
-  "description": "",
+  "description": "Página web de una editorial dedicada a la publicación de libros, creada para la entrega del proyecto final en curso de Coder House",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "Ramiro de Anchorena",
   "license": "ISC",
   "dependencies": {
     "pkg": "^5.1.0"

@@ -303,6 +303,10 @@ h1 {
   color: black;
   background-color: grey; }
 
+/*estilo al archivo publique.html*/
+.publique {
+  margin-bottom: 10px; }
+
 /*estilo al archivo p404.html*/
 .construccion {
   /*estilo al texto presente en la página*/

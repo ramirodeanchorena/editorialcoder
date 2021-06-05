@@ -36,15 +36,34 @@
     </header>
 
     <section class="publique">
-        <div>
+        <div class="titulo-publique">
             <h1>Envíe su libro y publique con nosotros</h1>
         </div>
 
         <div>
-            <h3>Deje su dirección de email, un resumen de su libro y adjunte su archivo</h3>
+            <h4>Deje su dirección de email, un resumen de su libro y adjunte su archivo</h4>
         </div>
-    </section>
 
+        <!--formulario donde el usuario deja su email y resume su proyecto-->
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Dirección de email</label>
+            <input type="email" class="form-control" id="exampleFormInput1" placeholder="ejemplo: nombre@gmail.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Escriba un breve resumen de su libro</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <!--sección donde se adjunta el archivo y se envían los datos completados-->
+        <fieldset>
+            <legend>Adjunte su archivo y haga clic en enviar</legend>
+            <label for="adjuntar"></label>
+            <input type="file" value="Adjuntar archivo"/>
+            <label for="submit"></label>
+            <input type="submit" value="Enviar"/>
+        </fieldset>
+
+    </section>
 
     <!--Aquí comienza el footer, que será el mismo en todos los archivos .html-->
     <footer id="pie" class="container-fluid col-lg-12 col-md-12">

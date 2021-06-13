@@ -9,11 +9,12 @@ body {
 
 /*estilo de la clase "encabezado" para todos los archivos .html, incluyendo el menú y el logo*/
 .encabezado {
-  height: 50vh;
+  height: 55vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: content-box;
-  background-image: url(../img/libross.jpg); }
+  background-image: url(../img/libross.jpg);
+  padding-top: 0 !important; }
   .encabezado .encabezado__logo {
     border-radius: 2%; }
   .encabezado .encabezado__menu {
@@ -74,7 +75,8 @@ h1 {
   padding-top: 0px;
   padding-bottom: 2px; }
 
-/*estilo a la imagen de la etiqueta h1 en los archivos html donde sea utilizada*/
+/*estilo a la imagen de la etiqueta h1 en los archivos html donde sea utilizada
+*/
 .imagen {
   display: block;
   margin: auto; }

@@ -35,33 +35,34 @@
         </nav>
     </header>
 
-    <!--sección donde el usuario dejará su email y podrá adjuntar un libro-->
-    <section class="publique"> <!--título de la página e inicio del formulario con etiqueta h4-->
-        <div class="titulo-publique">
-            <h1>Envíe su libro y publique con nosotros</h1>
-        </div>
+    <div class="titulo-h1">
+        <h1>Envíe su libro y publique con nosotros</h1>
+    </div>
 
-        <div>
-            <h4>Deje su dirección de email, un resumen de su libro y adjunte su archivo</h4>
+    <!--sección donde el usuario dejará su email y podrá adjuntar un libro-->
+    <section id="publique"> <!--título de la página e inicio del formulario con etiqueta h4-->
+        <div class="publique-h2">
+            <h2 class="publique-h2-texto">Deje su dirección de email, un resumen de su libro y adjunte su archivo</h2>
         </div>
 
         <!--formulario donde el usuario deja su email y resume su proyecto-->
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Dirección de email</label>
-            <input type="email" class="form-control" id="exampleFormInput1" placeholder="ejemplo: nombre@gmail.com">
+        <div class="mail">
+            <label for="ejemploInput1" class="mail-titulo">Dirección de email</label>
+            <input type="email" class="form-control" id="ejemploInput1" placeholder="ejemplo: nombre@gmail.com">
         </div>
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Escriba un breve resumen de su libro</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <div class="resumen">
+            <label for="ejemploBreveResumen" class="resumen-escriba">Escriba un breve resumen de su libro</label>
+            <textarea class="form-control resumen-ancho" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
 
         <!--sección donde se adjunta el archivo y se envían los datos completados-->
-        <fieldset>
-            <legend>Adjunte su archivo y haga clic en enviar</legend>
+        <fieldset class="adjunte">
+            <h3 class="adjunte-h3">Adjunte su archivo y haga clic en enviar</h3>
             <label for="adjuntar"></label>
             <input type="file" value="Adjuntar archivo"/>
-            <label for="submit"></label>
-            <input type="submit" value="Enviar"/>
+            <div class="enviar">
+                <button type="button" class="btn btn-warning btn-enviar">Enviar</button>
+            </div>
         </fieldset>
 
     </section>

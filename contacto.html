@@ -62,11 +62,11 @@
         </div>
         <div class="container datos">
             <div>
-                <h2 class="titulo-datos">Dejanos tus datos</h2>
+                <h2 class="titulo-datos">Suscribite</h2>
             </div>
-            <div class="row bloque-contenedor">
+            <div class="row bloque-contenedor-sus">
                 <div class="col-md-5 imagen-datos">
-                    <img src="./img/..." class="img-responsive img-datos" alt="imagen del formulario datos">
+                    <img src="./img/news.png" class="img-responsive img-datos" alt="imagen del formulario datos">
                 </div>
                 <div class="col-md-7 formulario-datos">
                     <form class="form">
@@ -86,12 +86,19 @@
                                 </select>
                                 <label class="mail" for="mail">Mail:</label>
                                 <input class="input-mail" name="mail" type="text" tabindex="3">
-
-
                             </div>
-                            
-
-
+                            <div>
+                                <label for="checkbox1">Quiero recibir el newsletter</label>
+                                <input type="checkbox" tabindex="30" name="condiciones" value="recibirCondiciones">
+                                <label class="label" for="checkbox2">Acepto las condiciones</label>
+                                <input type="checkbox" tabindex="30" name="condiciones" value="aceptaCondiciones">
+                            </div>
+                            <div class="enviar">
+                                <label for="reset"></label>
+                                <input type="reset" value="Resetear formulario"/>
+                                <label for="submit"></label>
+                                <input class="enviar-btn" type="submit" value="Enviar"/>
+                            </div>
                         </fieldset>
 
                     </form>
@@ -105,37 +112,7 @@
         <section>
             
         
-            <form id="formulario">
-                <fieldset>
-                    
-                    <br>
-                    
-                    <label for="mail">Mail:</label>
-                    <input name="mail" type="text" tabindex="3">
-                </fieldset>
-
-                <fieldset>
-                    <legend>Newsletter y Condiciones</legend>
-                    <label for="checkbox1">Quiero recibir el newsletter</label>
-                    <input type="checkbox" tabindex="30"
-                                name="condiciones" value="recibirCondiciones">
-                    <br>
-                    <label for="checkbox2">Acepto las condiciones</label>
-                    <input type="checkbox" tabindex="30"
-                                name="condiciones" value="aceptaCondiciones">
-                </fieldset>
-
-                <fieldset>
-                    <legend>Finalizar</legend>
-                    <label for="reset"></label>
-                    <input type="reset" value="Resetear formulario"/>
-                    <label for="submit"></label>
-                    <input type="submit" value="Enviar formulario"/>
-                </fieldset> 
-            </form>
-        </section>
-    </main> 
-
+            
     <footer id="pie" class="container-fluid col-lg-12 col-md-12">
         <ul class="nav flex-column">
             <li class="nav-item">

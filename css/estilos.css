@@ -308,6 +308,7 @@ h1 {
   padding: 30px;
   background-color: #fff;
   border-radius: 4px;
+  margin-bottom: 15px;
 }
 
 .titulo-nw{
@@ -342,6 +343,68 @@ h1 {
 .txt-nw{
   margin-bottom: 12px;
 }
+
+.datos{
+  width: 100%;
+  height: 400px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.titulo-datos{
+  margin-left: 50px;
+}
+
+.imagen-datos{
+  padding: 15px;
+  padding-right: 2px !important;
+  height: 240px;
+}
+
+.img-datos{
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 25px;
+}
+
+.formulario-datos{
+  padding: 15px;
+  margin-top: 45px;
+  padding-left: 2px !important;
+  height: 210px;
+  background-color: rgb(199, 193, 193);
+  border-radius: 4px;
+}
+
+.margin-form{
+  margin-bottom: 15px !important;
+}
+
+.input{
+  width: 200px !important;
+}
+
+.apellido{
+  margin-left: 20px;
+}
+
+.genero{
+  margin-right: 7px;
+}
+
+.mail{
+  margin-left: 15px !important;
+}
+
+.input-mail{
+  width: 200px !important;
+  margin-left: 13px;
+
+}
+
 
 #formulario {
   /*para brindarle color al texto y al fondo del formulario en la página contacto.html*/

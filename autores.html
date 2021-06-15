@@ -16,25 +16,32 @@
 </head>
 
 <body>
-    <header class="encabezado">
-        <div>
-            <!--el header cuenta con el logo en la esquina superior izquierda-->
-            <a href="index.html"> <img class="encabezado__logo" src="./img/logolumiere.jpg" alt="logo del sitio"></a>
-        </div>
-        <nav>
-            <ul class="encabezado__menu">
-                <!--enlaces relativos del menú de navegación-->
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="catalogo.html">Catálogo</a></li>    
-                <li><a href="autores.html">Autores</a></li>
-                <li><a href="contacto.html">Contacto</a>
-                    <ul>
-                        <li><a href="contacto.html">Déjenos sus datos</a></li>
-                        <li><a href="publique.html">Publique con nosotros</a></li>
+    <header class="p-3 bg-dark text-white cabecera">
+        <div class="container container-menu">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <nav class="menu">
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="index.html" class="nav-link px-2 text-secondary inicio">Inicio</a></li>
+                        <li><a href="nosotros.html" class="nav-link px-2 text-white">Nosotros</a></li>
+                        <li><a href="autores.html" class="nav-link px-2 text-white">Autores</a></li>
+                        <li><a href="catalogo.html" class="nav-link px-2 text-white">Catálogo</a></li>
+                        <li><a href="contacto.html" class="nav-link px-2 text-white contacto-menu">Contacto</a>
+                            <ul class="ul-submenu">
+                                <li><a href="publique.html" class="nav-link px-2 text-white submenu">Publicá con nosotros</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </li>
-            </ul>
-        </nav>
+                </nav>
+
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+              <input type="search" class="form-control form-control-dark" placeholder="Búsqueda..." aria-label="Search">
+            </form>
+    
+            <div class="text-end">
+              <button type="button" class="btn btn-warning btn-publica">Publicá tu libro</button>
+            </div>
+          </div>
+        </div>
     </header>
     
     <main>

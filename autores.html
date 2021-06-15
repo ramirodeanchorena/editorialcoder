@@ -38,34 +38,73 @@
     </header>
     
     <main>
-        <div> <!--título y nuestro slogan-->
-            <h1>Una editorial familiar</h1>
-            <p class="subtitulo">Pasión por los libros. De la familia a la comunidad</p>
+        <div class="autores-separador"> <!--título y nuestro slogan-->
+            <h1 class="autores-h1">Nuestros autores</h1>
+            <p class="autores-texto">Quienes escriben las obras que nosotros publicamos son uno de los motores centrales de nuestra editorial.</p>
+            <p class="autores-texto">No sólo son profesionales de primer nivel, sino que son excelentes personas.</p>
+            <p class="autores-texto">Por estos motivos, queremos que los conozcan.</p>
         </div>
-        <section class="autores"> <!--cada uno de nuestros autores, con su foto e historia-->
-            <div><button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Nuestros Autores</button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Bossi, Sebastían</a></li>
-                <li><a class="dropdown-item" href="#">González, Martín</a></li>
-            </ul> 
-            </div>
-            <ul class="autores__bossi">
-                <!--lista con viñetas de autores-->
-                <li class="autores__bossi"><h3>Bossi, Sebastián</h3></li>
-                <img class="autores__bossi--foto" data-aos="fade-right" width="600px" height="400px" src="./img/autor1.jpg" alt="foto de Bossi">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, nostrum mollitia. Eveniet officiis alias obcaecati harum recusandae quam consequatur pariatur sunt nemo accusamus? Numquam tenetur ipsum totam illo, ad nulla illum temporibus, in ex eum magnam doloribus quas fugiat commodi? Aliquid tempora qui totam voluptate dolore ducimus voluptates sequi nam.</p>
-            </ul> 
-            <ul class="autores__gonzalez">  
-                <li class="autores__gonzalez"><h3>González, Martín</h3></li>
-                <img class="autores__gonzalez--foto" data-aos="fade-right" width="600px" height="400px" src="./img/autor2.jpg" alt="foto de González">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque hic impedit adipisci magni nostrum! Expedita repellendus officiis sed esse veritatis consequatur, nobis veniam quisquam rerum adipisci vero accusantium repudiandae mollitia doloribus nisi quidem molestias itaque! Modi, suscipit dicta aliquam laborum placeat necessitatibus accusamus, quod sequi repellendus nulla eius veniam ex.</p>
-            </ul>
-        </section>
 
-        <div class="entrevista"> <!--sección de entrevistas a nuestros autores en video-->
-            <h2 class="entrevista__titulo">Entrevistas a nuestros autores</h2>
-            <iframe class="entrevista__video" width="560" height="315" src="https://www.youtube.com/embed/dUZJGhPqspQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        <section class="container autores"> <!--cada uno de nuestros autores, con su foto e historia-->
+            <div><button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Nuestros Autores</button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Bossi, Sebastían</a></li>
+                    <li><a class="dropdown-item" href="#">González, Martín</a></li>
+                </ul> 
+            </div>
+            <div class="row contenedor-bossi">
+                <div>
+                    <h2 class="autores__bossi">Bossi, Sebastián</h2>
+                </div>
+                <div class="col-md-5 bossi-foto">
+                    <img class="autores__bossi--foto" data-aos="fade-right" width="400px" height="275px" src="./img/autorx.png" alt="foto de Bossi">
+                </div>
+                <div class="col-md-7 bossi-texto">
+                    <p class="bossi-historia">Sebastián Bossi nació en Bella Vista, Provincia de Buenos Aires. Su pasión por los libros surgió a temprana edad, tal como él mismo cuenta, convirtiéndose en lector incansable desde los seis años.</p>
+                    <p class="bossi-historia">De adolescente se interesó por las materiales orientadas a lo social, para terminar estudiando Filosofía y Letras en la Universidad de Buenos Aires (UBA).</p>
+                    <p class="bossi-historia">Su carrera profesional pasó por todos los estadíos. Desde ayudante de cátedra, a profesor titular, cátedra propia, y más de una decena de libros escritos, convirtiéndose en uno de los autores del momento.</p>
+                </div>        
+            </div>
+            <div class="row contenedor-gonzalez">
+                <div>
+                    <h2 class="autores__gonzalez">González, Mónica</h2>
+                </div>
+                <div class="col-md-5 gonzalez-foto">
+                    <img class="autores__gonzalez--foto" data-aos="fade-right" width="400px" height="275px" src="./img/autorxx.png" alt="foto de González">
+                </div>
+                <div class="col-md-7 gonzalez-texto">
+                    <p class="gonzalez-historia">Qué decir de Mónica. Nacida en Córdoba Capital en 1948. Su larga trayectoria habla por sí sola. Su compromiso social la convirtieron en referente de la lucha por los derechos humanos en la Argentina.</p>
+                    <p class="gonzalez-historia">Dejó huella en cada género literario en el que se sumergió. Sus novelas históricas pasaron a ser un clásico de la literatura de nuestro país, y fue el género que la acercó a la familia Lumiere.</p>
+                    <p class="gonzalez-historia">Tanto conocimiento, tanta calidad en su pluma, y tanta obra producida no hacen más que enriquecernos como editorial y sentirnos orgullosos de contar con ella.</p>
+                </div>
+            </div>
+            <div class="row contenedor-frugoni">
+                <div>
+                    <h2 class="autores__frugoni">Frugoni, Manuel</h2>
+                </div>
+                <div class="col-md-5 frugoni-foto">
+                    <img class="autores_frugoni--foto" data-aos="fade-right" width="400px" height="275px" src="./img/autorxxx.png" alt="foto de González">
+                </div>
+                <div class="col-md-7 frugoni-texto">
+                    <p class="frugoni-historia">Escritor que pasó rápido de promesa y revelación, a realidad. Manuel nació en Viedma el 18 de febrero de 1980. Periodista político. Gran investigador. Sus artículos se convirtieron rápidamente en protagonistas de la agenda mediática nacional.</p>
+                    <p class="frugoni-historia">Tanto escribir, investigar y analizar, el oriundo de la Patagonia no dudó en adaptarse para formar parte de la literatura política argentina. Ssu recurrentes best-sellers no hacen más que confirmar que el lector confía en su palabra y en su estudio.</p>
+                    <p class="frugoni-historia">Como si todo eso fuera poco, es una persona cálida y de trabajo incansable, que aporta día a día a que esta editorial siga creciendo.</p>
+                </div>
+            </div>
+            <div class="row contenedor-castillo">
+                <div>
+                    <h2 class="autores__castillo">Castillo, Emilia</h2>
+                </div>
+                <div class="col-md-5 castillo-foto">
+                    <img class="autores_castillo--foto" data-aos="fade-right" width="400px" height="275px" src="./img/autorxxxx.png" alt="foto de González">
+                </div>
+                <div class="col-md-7 castillo-texto">
+                    <p class="castillo-historia">Si hablamos de jóvenes promesas, no puede quedar afuera Emilia Castillo. La porteña del barrio de San Telmo, historiadora y analista política, fue la escritora que más ejemplares vendió en todo 2020.</p>
+                    <p class="castillo-historia">Su facilidad para transmitir conocimiento y atrapar a los lectores hacen de ella una escritora amada por todos. No sólo los argentinos disfrutamos de sus obras, sino que ya se han traducido a más de nueve idiomas.</p>
+                    <p class="castillo-historia">Aclamada por la crítica, ganadora de innumerables premios a pesar de su corta trayectoria, hacen de Lumiere una editorial bendecida por poder contar con esta pluma. Que sea por mucho tiempo más.</p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer id="pie" class="container-fluid col-lg-12 col-md-12">

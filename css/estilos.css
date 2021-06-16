@@ -9,7 +9,7 @@ body {
 
 .cabecera{
   /*para darle más altura al header y establecer las características de su background*/
-  height: 50vh;
+  height: 50vh !important;
   width: auto;
   background-image: url(../img/libross.jpg);
   background-repeat: no-repeat;
@@ -139,6 +139,17 @@ body {
   padding-bottom: 15px;
 }
 
+.novedades::before{
+  content: "";
+  display: block;
+  background-color: #272c2b;
+  height: 1px;
+  margin-top: 25px;
+  margin-left: 0px;
+  width: 285px;
+  margin-bottom: 30px;
+}
+
 /*footer*/
 #pie {
   background-image: linear-gradient(to right, black, grey);
@@ -204,6 +215,7 @@ body {
 /*estilo para resaltar libros nuevos en sección publicaciones*/
 .badge {
   background-color: #145f91 !important; }
+
 
 /*estilo a la clase "editor"*/
 .editor {

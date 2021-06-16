@@ -85,27 +85,59 @@ body {
   margin-top: 2px !important;
 }
 
-/*estilo a la etiqueta h1 para los archivos .html donde sea utilizados*/
-h1 {
-  color: #145f91;
-  text-align: center;
-  font-family: sans-serif;
+/*slogan en nosotros copiado de la web*/
+.slogan{
+  padding-top: 20px;
+  width: auto;
+  height: 350px !important;
+}
+
+.slogan-container{
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container-h1{
+  height: 130px !important;
+}
+
+.container-h1-margen{
+  height: 130px !important;
+}
+
+.nosotros-h1{
+  font-size: 50px !important;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 1000 !important;
+  color: black;
   line-height: 10px;
-  padding-top: 0px; }
+}
 
-/*para darle color y modificar la fuente de la clase subtítulo*/
-.subtitulo {
-  color: #413f3f;
-  font-family: 'Times New Roman', Times, serif cursive;
-  text-align: center;
-  padding-top: 0px;
-  padding-bottom: 2px; }
+.centrado{
+  text-align: center !important;
+}
 
-/*estilo a la imagen de la etiqueta h1 en los archivos html donde sea utilizada
-*/
-.imagen {
+.nosotros-h1::after{
+  content: "";
   display: block;
-  margin: auto; }
+  background-color: #66c0b3;
+  height: 3px;
+  margin-top: 40px;
+  margin-left: 600px;
+  margin-right: 600px;
+  width: 70px;
+  margin-bottom: 30px;
+}
+
+.slogan-fuente{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.novedades{
+  margin-left: 30px;
+  padding-bottom: 15px;
+}
 
 /*footer*/
 #pie {
@@ -690,50 +722,4 @@ h1 {
   justify-content: center;
   text-align: center; }
 
-  /*slogan en nosotros copiado de la web*/
-.slogan{
-  padding-top: 20px;
-  width: auto;
-  height: 350px !important;
-}
 
-.slogan-container{
-  margin-left: 30px;
-  margin-right: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.container-h1{
-  height: 130px !important;
-}
-
-.container-h1-margen{
-  height: 130px !important;
-}
-
-.nosotros-h1{
-  font-size: 50px !important;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-weight: 1000 !important;
-  color: black;
-}
-
-.centrado{
-  text-align: center !important;
-}
-
-.nosotros-h1::after{
-  content: "";
-  display: block;
-  background-color: #66c0b3;
-  height: 3px;
-  margin-top: 40px;
-  margin-left: 600px;
-  margin-right: 600px;
-  width: 70px;
-  margin-bottom: 30px;
-}
-
-.slogan-fuente{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}

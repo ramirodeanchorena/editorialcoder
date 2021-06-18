@@ -74,7 +74,7 @@
       <h2 class="novedades">Novedades del mes</h2>
     </div>
 
-        <!--Carousel donde se mostrarán las novedades-->
+    <!--Carousel donde se mostrarán las novedades-->
         <div id="carouselDesafio" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselDesafio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -86,10 +86,10 @@
                 <img src="./img/slide1.jpg" class="d-block w-100" alt="silde1">
               </div>
               <div class="carousel-item">
-                <img src="./img/slide2.jpg" class="d-block w-100" alt="slide2">
+                <img src="./img/la_batalla_del_futuro_1.jpg" class="d-block w-100" alt="slide2">
               </div>
               <div class="carousel-item">
-                <img src="./img/slide3.jpg" class="d-block w-100" alt="slide3">
+                <img src="./img/9._moneda_en_el_aire.jpg" class="d-block w-100" alt="slide3">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselDesafio" data-bs-slide="prev">
@@ -103,49 +103,55 @@
         </div>
 
         <!--Aquí comienza la sección publicaciones, que mostrará las últimas 9 ediciones -->  
-        <section id="seccionPublicaciones" class="container col-lg-12 col-md-12">
-            <div class="row">
-                <h3 class="titulo col-lg-12 col-md-4">Libros más vendidos</h3>
-            </div>
+          <div class="masVendidos col-lg-12 col-md-12">
+              <h3 class="">Libros más vendidos</h3>
+          </div>
+
+        <section id="seccionPublicaciones" class="container col-lg-12 col-md-12"> <!--Aquí se agregarán imágenes y seguramente se modifique el formato tabla-->
+          <div class="row">
+              <div class="libroContainer col-lg-3 col-md-4">
+                <img class="libro img-fluid" src="./img/libro1.png" alt="primer libro">
+                <p class="nombre">La tía Cosima</p>
+              </div>
+              <div class="libroContainer col-lg-3 col-md-4">
+                <img class="libro img-fluid" src="./img/libro2.png" alt="segundo libro">
+                <p class="nombre">Catedrales <span class="badge bg-secondary">Nuevo</span></p>
+              </div>
+              <div class="libroContainer col-lg-3 col-md-4">
+                <img class="libro img-fluid" src="./img/libro3.png" alt="tercer libro">
+                <p class="nombre img-fluid">Los ojos del hermano eterno</p>
+              </div>
+              <div class="libroContainer col-lg-3 col-md-4">
+                <img class="libro img-fluid" src="./img/libro4.png" alt="cuarto libro">
+                <p class="nombre">Sira</p>
+              </div>
+              <div class="libroContainer col-lg-3 col-md-4">
+                <img class="libro img-fluid" src="./img/libro5.png" alt="quinto libro">
+                <p class="nombre">Las primas <span class="badge bg-secondary">Nuevo</span></p>
+              </div>
+              <div class="libroContainer col-lg-3 col-md-4">
+                <img class="libro img-fluid" src="./img/libro6.png" alt="quinto libro">
+                <p class="nombre">Asesino de brujas</p>
+              </div>
+              <div class="libroContainer col-lg-3 col-md-4">
+                <img class="libro img-fluid" src="./img/Copia de Sin título (13).png" alt="quinto libro">
+                <p class="nombre">Liberado</p>
+              </div>
+              <div class="libroContainer col-lg-3 col-md-4">
+                <img class="libro img-fluid" src="./img/Copia de Sin título (15).png" alt="quinto libro">
+                <p class="nombre">Los siete maridos</p>
+              </div>
+              <div class="libroContainer col-lg-3 col-md-4">
+                <img class="libro img-fluid" src="./img/Copia de Sin título (8).png" alt="quinto libro">
+                <p class="nombre">Dos soledades</p>
+              </div>
+              <div class="libroContainer col-lg-3 col-md-4">
+                <img class="libro img-fluid" src="./img/Copia de Sin título (9).png" alt="quinto libro">
+                <p class="nombre">Marwán</p>
+              </div>
+          </div>  
         </section>
     
-        <section class="publicaciones container col-lg-12 col-md-12"> <!--aquí serán incluídas las fotos de los libros-->
-            <!--sugerencia: revisar catálogo en menú de navegación-->
-            <div class="row">
-                <div class="publicaciones__libroUno col-lg-3 col-md-4">
-                    <img class="publicaciones__libroUno--foto1 img-fluid" src="./img/libro1.png" alt="primer libro">
-                    <p class="publicaciones__libroUno--nombre1">La tía Cosima</p>
-                </div>
-                <div class="publicaciones__libroDos col-lg-3 col-md-4">
-                    <img class="publicaciones__libroDos--foto2 img-fluid" src="./img/libro2.png" alt="segundo libro">
-                    <p class="publicaciones__libroDos--nombre2">Catedrales <span class="badge bg-secondary">Nuevo</span></p>
-                </div>
-                <div class="publicaciones__libroTres col-lg-3 col-md-4">
-                    <img class="publicaciones__libroTres--foto3 img-fluid" src="./img/libro3.png" alt="tercer libro">
-                    <p class="publicaciones__libroTres--nombre3">Los ojos del hermano eterno</p>
-                </div>
-                <div class="publicaciones__libroCuatro col-lg-3 col-md-4">
-                    <img class="publicaciones__libroCuatro--foto4" src="./img/libro4.png" alt="cuarto libro">
-                    <p class="publicaciones__libroCuatro--nombre4">Sira</p>
-                </div>
-                <div class="publicaciones__libroQuinto col-lg-3 col-md-4">
-                    <img class="publicaciones__libroQuinto--foto5" src="./img/libro5.png" alt="quinto libro">
-                    <p class="publicaciones__libroQuinto--nombre5">Las primas <span class="badge bg-secondary">Nuevo</span></p>
-                </div>
-                <div class="publicaciones__libroSexto col-lg-3 col-md-4">
-                    <img class="publicaciones__libroSexto--foto6" src="./img/libro6.png" alt="sexto libro">
-                    <p class="publicaciones__libroSexto--nombre6">Asesino de brujas</p>
-                </div>
-            </div>  
-        </section>
-
-         <!--sección del index.html con video de entrevista al editor-->
-        <section class="editor" class="col-jg-9">
-            <h3 class="editor__video">Entrevista a nuestro editor</h3>
-            <div style="text-align: center;">
-            <iframe class="editor__video--bordes" width="560" height="315" src="https://www.youtube.com/embed/XcF2OxjVrac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </section>
     </main>
 
     <!--Aquí comienza el footer, que será el mismo en todos los archivos .html-->

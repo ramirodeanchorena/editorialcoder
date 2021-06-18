@@ -169,25 +169,60 @@ body {
   background-color: black; }
 
 /*estilo al ID de la sección publicaciones*/
-#seccionPublicaciones {
-  margin-top: 20px; }
-
-/*estilo al títutlo de la sección publicaciones*/
-.titulo, .editor .editor__video {
+.masVendidos{
+  margin-left: 30px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  padding-left: 0 !important;
+  padding-top: 15px;
+  font-family: inherit;
   width: auto;
   height: 10vh;
-  padding-top: 10px;
-  font-family: inherit;
-  text-decoration: underline;
-  padding-left: 0%; }
+  margin-bottom: 15px;
+  height: 60px;
+}
+
+#seccionPublicaciones {
+  margin-top: 20px;
+  width: 900px;
+  height: 600px;
+  margin-bottom: 20px !important;
+  padding-bottom: 20px !important;
+  margin-left: 30px !important;
+  margin-right: 20px !important;
+ }
+
+/*estilo al títutlo de la sección publicaciones*/
+
+
+.libroContainer{
+    width: 170px;
+
+}
+
+.libro{
+    /*imagen del primer libro en #seccionPublicaciones*/
+    height: 210px;
+    width: 150px; 
+}
+
+.nombre{
+    /*características al nombre del libro*/
+    color:black;
+    text-align: center;
+}
+
+.badge{
+    background-color: rgb(20, 95, 145) !important;
+}
 
 /*estilo al bloque .publicaciones*/
-.publicaciones {
+/*.publicaciones {
   width: 100%;
   /*estilo a las fotos y al texto de cada libro de esta sección*/
   /*imagen del primer libro en #seccionPublicaciones*/
-  /*características al nombre del libro1*/ }
-  .publicaciones .publicaciones__libroUno {
+  /*características al nombre del libro1*/ 
+  /*.publicaciones .publicaciones__libroUno {
     color: white; }
   .publicaciones .publicaciones__libroUno--foto1, .publicaciones .publicaciones__libroDos--foto2, .publicaciones .publicaciones__libroTres--foto3, .publicaciones .publicaciones__libroCuatro--foto4, .publicaciones .publicaciones__libroQuinto--foto5, .publicaciones .publicaciones__libroSexto--foto6 {
     width: 15vw;
@@ -213,8 +248,8 @@ body {
     margin-left: 60px; }
 
 /*estilo para resaltar libros nuevos en sección publicaciones*/
-.badge {
-  background-color: #145f91 !important; }
+/*.badge {
+  background-color: #145f91 !important; }*/
 
 
 /*estilo a la clase "editor"*/

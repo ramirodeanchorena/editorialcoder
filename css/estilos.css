@@ -137,6 +137,7 @@ body {
 .novedades{
   margin-left: 30px;
   padding-bottom: 10px;
+  margin-top: 10px;
 }
 
 .novedades::after{
@@ -157,9 +158,6 @@ body {
 
 /*estilo en el archivo index.html*/
 /*estilo en <main> para la clases, etquietas e ID allí incluidos*/
-.novedades {
-  /*estilo a la clase .novedades del main*/
-  margin-top: 10px; }
 
 /*carousel en index.html*/
 .carousel-control-prev-icon {
@@ -184,10 +182,13 @@ body {
 
 #seccionPublicaciones {
   margin-top: 20px;
-  width: 900px;
+  width: 1300px !important;
   height: 600px;
   margin-left: 30px !important;
   margin-right: 20px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
  }
 
  .vendidos::after{
@@ -202,6 +203,10 @@ body {
  }
 
 /*estilo al títutlo de la sección publicaciones*/
+
+.libros-filas{
+  width: 900px;
+}
 
 
 .libroContainer{
@@ -222,6 +227,41 @@ body {
 
 .badge{
     background-color: rgb(20, 95, 145) !important;
+}
+
+.aside-index{
+  margin-left: 20px;
+  padding-left: 20px;
+  width: 400px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgb(154 155 162);
+  border-radius: 6px;
+  height: 550px !important;
+  border: 2px solid;
+  border-color: black;
+}
+
+.recomendados{
+  font-weight: bolder;
+  font-size: larger;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.libro-recomendado{
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.texto-recomendado{
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 8px;
 }
 
 .contenedor-frases{
@@ -246,14 +286,15 @@ body {
 .frase-diseno{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size:larger;
-  margin-left: 10px;
-  margin-top: 10px;
+  text-align: center;
+  margin: 10px 5px 10px 5px;
+
 }
 
 .celebre{
   font-size: xx-large;
-  margin-left: 10px;
   font-weight: bold;
+  text-align: center;
 }
 
 /*estilo al bloque .publicaciones*/
@@ -291,20 +332,6 @@ body {
 /*.badge {
   background-color: #145f91 !important; }*/
 
-
-/*estilo a la clase "editor"*/
-.editor {
-  /*para modificar el margen superior del video perteneciente a index.html*/
-  border: solid 3px black;
-  margin: 10px 70px 10px 70px;
-  padding: 20px;
-  background-color: #ada5a5;
-  /*para centrar el texto de la clase .video*/ }
-  .editor .editor__video {
-    text-align: center;
-    padding: bottom 5px; }
-  .editor .editor__video--bordes {
-    border-color: black; }
 
 /*estilo en el archivo catalogo.html */
 /*variables*/

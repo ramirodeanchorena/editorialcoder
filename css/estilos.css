@@ -237,9 +237,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: rgb(154 155 162);
+  background-color: rgb(191 192 199);
   border-radius: 6px;
-  height: 550px !important;
+  height: 540px !important;
   border: 2px solid;
   border-color: black;
 }
@@ -254,7 +254,7 @@ body {
 
 .libro-recomendado{
   text-align: center;
-  margin-bottom: 8px;
+  margin-bottom: 2px;
 }
 
 .texto-recomendado{
@@ -369,7 +369,6 @@ body {
 .bossi-texto{
   padding-top: 20px !important;
   padding-left: 2px !important;
-  
 }
 
 .bossi-historia{
@@ -476,6 +475,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-basis: 100px;
+  margin-bottom: 15px;
   /*para dar estilo a las imágenes y texto de cada autor*/ }
   .autores .autores__bossi {
     /*para modelar la clase .autores__bossi*/
@@ -502,7 +502,9 @@ body {
   justify-content: left;
   background-color: royalblue;
   margin-left: 10px;
-  margin-top: 5px; }
+  margin-top: 5px;
+ }
+
 
 /*para que los nombres de los autores en la lista de la sección autores.html sean de color negro*/
 .autores li h3 {
@@ -513,16 +515,6 @@ body {
   border: solid 2px black;
   list-style: none; }
 
-/*modelar el bloque clase "entrevista"*/
-.entrevista {
-  /*modelar la entrevista en video en autores.html*/
-  border: solid 2px black;
-  margin: 10px;
-  padding: 10px; }
-  .entrevista .entrevista__titulo {
-    text-decoration: underline; }
-  .entrevista .entrevista__video {
-    border-color: black; }
 
 /* estilo en el archivo nosotros.html */
 /*variables*/
@@ -730,7 +722,9 @@ body {
   height: 430px !important;
   align-self: center;
   padding: 5px;
-  margin: 5px;
+  margin: 5px 5px 20px 5px;
+  background-color: #aab9c1;
+  border-radius: 4px;
 }
 
 .publique-h3{
@@ -742,6 +736,7 @@ body {
 .publique-h3-texto {
   font-size: x-large;
   padding: 2px;
+  text-align: center;
   }
 
 .mail {

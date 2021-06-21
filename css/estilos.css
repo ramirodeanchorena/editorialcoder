@@ -132,6 +132,7 @@ body {
 
 .slogan-fuente{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
 
 .novedades{
@@ -297,36 +298,6 @@ body {
   text-align: center;
 }
 
-/*estilo al bloque .publicaciones*/
-/*.publicaciones {
-  width: 100%;
-  /*estilo a las fotos y al texto de cada libro de esta sección*/
-  /*imagen del primer libro en #seccionPublicaciones*/
-  /*características al nombre del libro1*/ 
-  /*.publicaciones .publicaciones__libroUno {
-    color: white; }
-  .publicaciones .publicaciones__libroUno--foto1, .publicaciones .publicaciones__libroDos--foto2, .publicaciones .publicaciones__libroTres--foto3, .publicaciones .publicaciones__libroCuatro--foto4, .publicaciones .publicaciones__libroQuinto--foto5, .publicaciones .publicaciones__libroSexto--foto6 {
-    width: 15vw;
-    height: 45vh;
-    margin-left: 20px; }
-  .publicaciones .publicaciones__libroUno--nombre1 {
-    color: black;
-    margin-left: 60px; }
-  .publicaciones .publicaciones__libroDos--nombre2 {
-    color: black;
-    margin-left: 60px; }
-  .publicaciones .publicaciones__libroTres--nombre3 {
-    color: black;
-    margin-left: 60px; }
-  .publicaciones .publicaciones__libroCuatro--nombre4 {
-    color: black;
-    margin-left: 60px; }
-  .publicaciones .publicaciones__libroQuinto--nombre5 {
-    color: black;
-    margin-left: 60px; }
-  .publicaciones .publicaciones__libroSexto--nombre6 {
-    color: black;
-    margin-left: 60px; }
 
 /*estilo para resaltar libros nuevos en sección publicaciones*/
 /*.badge {
@@ -762,18 +733,19 @@ body {
   margin: 5px;
 }
 
-.publique-h2{
+.publique-h3{
   height: 45px;
   padding: 5px;
+  margin-bottom: 5px;
 }
 
-.publique-h2-texto {
+.publique-h3-texto {
   font-size: x-large;
   padding: 2px;
   }
 
 .mail {
-  margin-left: 10px;
+  margin-left: 10px !important;
   margin-right: 10px;
   padding: 5px;
   margin-bottom: 10px;
@@ -784,7 +756,6 @@ body {
  }
 
  .resumen{
-   width: 1220px !important;
    height: 120px;
    margin-left: 10px;
    margin-right: 10px;
@@ -825,9 +796,10 @@ body {
 
  .btn-enviar{
    border-radius: 5px !important;
-   background-color: rgb(68, 192, 31) !important;
+   background-color: rgb(56 76 158) !important;
    border: 0 !important;
    margin-top: 5px !important;
+   color: #fff;
  }
 
 /*estilo al archivo p404.html*/

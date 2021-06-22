@@ -397,21 +397,56 @@ body {
 /*variables*/
 /*para que la etiqueta h3 de esta sección sea de color rgb(59, 57, 58)*/
 .tituloCatalogo {
-  color: #3b393a; }
+  color: #3b393a; 
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
 
 /*para organizar el catálogo a partir de grid*/
 .catalogo {
   margin: 10px 10px 10px 10px;
   display: grid;
-  grid-template-columns: 100px 75px 100px 150px;
-  grid-template-rows: 5px 25px 25px 75px;
-  background-color: #d1caac;
-  gap: 100px;
+  grid-template-columns: 200px 200px 200px 400px;
+  grid-template-rows: 30px 100px 100px 100px;
+  background-color: #88abb1;
   align-content: center; }
   .catalogo .catalogo__primeraLinea {
     /*primera línea del catálogo*/
     color: black;
-    font-weight: bolder; }
+    font-weight:bolder; 
+    height: 50px;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: large;
+    margin-top: 0.5rem;
+  }
+
+  .catalogo-segundaLinea{
+    height: 80px;
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+
+  .catalogo-terceraLinea{
+    height: 80px;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+
+  .catalogo-cuartaLinea{
+    height: 80px;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+
+  .libro-catalogo{
+    font-weight: bold;
+  }
+
+  .autor-fuente{
+    font-weight:normal;
+  }
+
   .catalogo .catalogo__autores {
     list-style: none;
     justify-content: center;

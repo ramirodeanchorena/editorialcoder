@@ -923,6 +923,14 @@ body {
 .construccion {
   /*estilo al texto presente en la página*/
   justify-content: center;
-  text-align: center; }
+  text-align: center; 
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.link-inicio{
+  font-size:xx-large;
+  margin-bottom: 2rem;
+}
 
 

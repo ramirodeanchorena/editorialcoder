@@ -11,7 +11,7 @@ body {
   /*para darle más altura al header y establecer las características de su background*/
   height: 50vh !important;
   width: auto;
-  background-image: url(../img/libross.jpg);
+  background-image: url(../img/parapruebacabecera.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: content-box;
@@ -23,17 +23,21 @@ body {
   margin-right: 0 !important;
   margin-left: 0 !important;
   box-sizing:content-box !important;
-  max-width: 1250px !important;
+  max-width: 1349px !important;
+}
+
+.logo{
+  margin-top: 1rem !important;
 }
 
 .menu{
-   padding-right: 500px;
+   padding-right: 200px;
    margin-right: 40px;
 }
 
 .inicio{
   color: white !important;
-  background-color: #8d807e/*#9e7b75*/;
+  background-color: #6b7db5;
   border-radius: 0.25rem;
 }
 
@@ -75,13 +79,16 @@ body {
 .submenu ul li:hover{
   background: #747880 !important;
   border-radius: 4px !important;
+}
 
+.me-lg-3{
+  margin-left: 7rem !important;
 }
 
 .btn-publica{
-  background-color: #36bb36 !important;
-  border-color: #36bb36 !important;
-  color: #f8f9fa !important;
+  background-color: #5271ff !important;
+  border-color: #5271ff !important;
+  color: #ffffff !important;
   margin-top: 2px !important;
 }
 
@@ -154,7 +161,7 @@ body {
 
 /*footer*/
 #pie {
-  background-image: linear-gradient(to right, black, grey);
+  background-image: linear-gradient(to right, #354858, #727e8a);
   height: 40vh; }
 
 /*estilo en el archivo index.html*/

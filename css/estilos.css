@@ -42,12 +42,12 @@ body {
 
 .inicio{
   color: white !important;
-  background-color: #6b7db5;
+  background-color: #3a4d5e;
   border-radius: 0.25rem;
 }
 
 .menu ul li:hover{
-  background: #747880;
+  background: #7a848e;
   border-radius: 4px;
 }
 
@@ -87,7 +87,14 @@ body {
 }
 
 .me-lg-3{
+  margin-left:0 ;
+}
+
+.btn{
+  background-color: #5271ff !important;
+  border: 1px solid #5271ff;
   margin-left: 7rem !important;
+  margin-right: 1rem;
 }
 
 .btn-publica{
@@ -95,6 +102,7 @@ body {
   border-color: #5271ff !important;
   color: #ffffff !important;
   margin-top: 2px !important;
+  text-decoration: none !important;
 }
 
 /*slogan en nosotros copiado de la web*/

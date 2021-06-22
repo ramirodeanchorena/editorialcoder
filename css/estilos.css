@@ -46,6 +46,30 @@ body {
   border-radius: 0.25rem;
 }
 
+.nosotros-nav{
+  color: white !important;
+  background-color: #3a4d5e;
+  border-radius: 0.25rem;
+}
+
+.contacto-nav{
+  color: white !important;
+  background-color: #3a4d5e;
+  border-radius: 0.25rem;
+}
+
+.catalogo-nav{
+  color: white !important;
+  background-color: #3a4d5e;
+  border-radius: 0.25rem;
+}
+
+.autores-nav{
+  color: white !important;
+  background-color: #3a4d5e;
+  border-radius: 0.25rem;
+}
+
 .menu ul li:hover{
   background: #7a848e;
   border-radius: 4px;
@@ -74,10 +98,12 @@ body {
 
 .ul-submenu{
   padding-left: 0px !important;
+  margin-top: 0 !important;
 }
 
 .submenu{
   margin-top: 5px !important;
+  padding-top: 5px !important;
   
 }
 

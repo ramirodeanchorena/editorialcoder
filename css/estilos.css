@@ -5,8 +5,8 @@ body {
   justify-content: center;
   background-color: #dad6d6; }
 
+/*estilo a la clase cabecera del header, incluido su background-image*/
 .cabecera{
-  /*para darle más altura al header y establecer las características de su background*/
   display: flex;
   flex-direction: row;
   height: 300px !important;
@@ -18,14 +18,14 @@ body {
   padding-top: 0 !important;
 }
 
-.container-menu{
+.menu__container{
   margin-right: 0 !important;
   margin-left: 3rem !important;
   box-sizing:content-box !important;
   max-width: 1160px !important;
 }
 
-.linea-menu{
+.menu__container--row{
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: wrap !important;
@@ -52,31 +52,31 @@ body {
    margin-right: 40px;
 }
 
-.inicio{
+.btn__inicio{
   color: white !important;
   background-color: #3a4d5e;
   border-radius: 0.25rem;
 }
 
-.nosotros-nav{
+.btn__nosotros{
   color: white !important;
   background-color: #3a4d5e;
   border-radius: 0.25rem;
 }
 
-.contacto-nav{
+.btn__contacto{
+  color: white !important;
+  background-color: #3a4d5e !important;
+  border-radius: 0.25rem !important; 
+}
+
+.btn__catalogo{
   color: white !important;
   background-color: #3a4d5e;
   border-radius: 0.25rem;
 }
 
-.catalogo-nav{
-  color: white !important;
-  background-color: #3a4d5e;
-  border-radius: 0.25rem;
-}
-
-.autores-nav{
+.btn__autores{
   color: white !important;
   background-color: #3a4d5e;
   border-radius: 0.25rem;
@@ -87,8 +87,8 @@ body {
   border-radius: 4px;
 }
 
-.contacto-menu{
-  padding-bottom: 0px !important;
+.menu__btn--contacto{
+  padding-bottom: px !important;
 }
 
 .menu ul ul{
@@ -108,29 +108,29 @@ body {
   display:block;
 }
 
-.ul-submenu{
+.submenu{
   padding-left: 0px !important;
   margin-top: 0 !important;
 }
 
-.submenu{
+.submenu__btn--publique{
   margin-top: 5px !important;
   padding-top: 5px !important;
 }
 
-.submenu ul li:hover{
+.submenu__btn--publique ul li:hover{
   background: #747880 !important;
   border-radius: 4px !important;
 }
 
 .btn{
   background-color: #5271ff !important;
-  border: 1px solid #5271ff;
+  border: 1px solid #5271ff !important;
   margin-left: 1rem !important;
-  margin-right: 1rem;
+  margin-right: 1rem !important;
 }
 
-.btn-publica{
+.btn__publique{
   background-color: #5271ff !important;
   border-color: #5271ff !important;
   color: #ffffff !important;
@@ -1038,7 +1038,7 @@ body {
     height: 450px !important;
     width: 100%;
   }
-  .container-menu{
+  .menu__container{
     margin-right: 1rem !important;
     margin-left: 1rem !important;
     width: 100% !important;
@@ -1054,7 +1054,7 @@ body {
     color: white !important;
   }
 
-  .linea-menu{
+  .menu__container--row{
     display: flex;
     flex-direction: column !important;
     /*align-items: flex-start;*/
@@ -1071,12 +1071,12 @@ body {
     flex-direction: column !important;
   }
 
-  .inicio{
+  .btn__inicio{
     color: white !important;
     border-radius: 0.25rem;
   }
   
-  .contacto-menu{
+  .menu__btn--contacto{
     padding-bottom: 0px !important;
   }
   
@@ -1086,11 +1086,6 @@ body {
     margin-right: 4rem !important;
     margin-top: 0.5rem !important;
     margin-bottom: 10px !important;
-  }
-
-  .busca{
-    margin-top: 10px !important;
-    margin-right: 40px !important;
   }
 
   .presentacion{
@@ -1705,7 +1700,6 @@ body {
    .catalogo{
      display: none;
    }
-
 }
 
 @media (min-width: 481px) and (max-width: 768px){
@@ -1714,7 +1708,7 @@ body {
     height: 300px !important;
     width: 100% !important;
   }
-  .container-menu{
+  .menu__container{
     margin-right: 1rem !important;
     margin-left: 1rem !important;
     width: 95% !important;
@@ -1724,7 +1718,7 @@ body {
     color: white !important;
   }
 
-  .linea-menu{
+  .menu__container--row{
     display: flex;
     flex-direction: column !important;
   }
@@ -1740,12 +1734,12 @@ body {
     flex-direction: row !important;
   }
 
-  .inicio{
+  .btn__inicio{
     color: white !important;
     border-radius: 0.25rem;
   }
   
-  .contacto-menu{
+  .menu__btn--contacto{
     padding-bottom: 0px !important;
   }
   
@@ -1755,11 +1749,6 @@ body {
     margin-right: 4rem !important;
     margin-top: 1rem !important;
     margin-bottom: 10px !important;
-  }
-
-  .busca{
-    margin-top: 1rem !important;
-    margin-right: 40px !important;
   }
 
   .presentacion{
@@ -2397,7 +2386,7 @@ body {
     height: 300px !important;
     width: 100% !important;
   }
-  .container-menu{
+  .menu__container{
     margin-right: 1rem !important;
     margin-left: 1rem !important;
     width: 100% !important;
@@ -2408,7 +2397,7 @@ body {
     font-weight: 500;
   }
 
-  .linea-menu{
+  .menu__container--row{
     display: flex;
     flex-direction: column !important;
   }
@@ -2424,12 +2413,12 @@ body {
     flex-direction: row !important;
   }
 
-  .inicio{
+  .btn__inicio{
     color: white !important;
     border-radius: 0.25rem;
   }
   
-  .contacto-menu{
+  .menu__btn--contacto{
     padding-bottom: 0px !important;
   }
   
@@ -2439,11 +2428,6 @@ body {
     margin-right: 4rem !important;
     margin-top: 1rem !important;
     margin-bottom: 10px !important;
-  }
-
-  .busca{
-    margin-top: 1rem !important;
-    margin-right: 40px !important;
   }
 
   .presentacion{
@@ -3037,7 +3021,7 @@ body {
     height: 300px !important;
     width: auto !important;
   }
-  .container-menu{
+  .menu__container{
     margin-right: 1rem !important;
     margin-left: 1rem !important;
     width: 100% !important;
@@ -3047,7 +3031,7 @@ body {
     color: white !important;
   }
 
-  .linea-menu{
+  .menu__container--row{
     display: flex;
     flex-direction: row !important;
   }
@@ -3062,12 +3046,12 @@ body {
     flex-direction: row !important;
   }
 
-  .inicio{
+  .btn__inicio{
     color: white !important;
     border-radius: 0.25rem;
   }
   
-  .contacto-menu{
+  .menu__btn--contacto{
     padding-bottom: 0px !important;
   }
   
@@ -3082,11 +3066,6 @@ body {
     margin-right: 1rem !important;
     margin-top: 1rem !important;
     margin-bottom: 10px !important;
-  }
-
-  .busca{
-    margin-top: 0.4rem !important;
-    margin-right: 20px !important;
   }
 
   .presentacion{

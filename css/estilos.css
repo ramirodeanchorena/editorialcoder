@@ -1701,6 +1701,11 @@ body {
     margin-left: 10px;
     margin-top: 5px;
    }
+
+   .catalogo{
+     display: none;
+   }
+
 }
 
 @media (min-width: 481px) and (max-width: 768px){
@@ -2380,6 +2385,10 @@ body {
     margin-left: 10px;
     margin-top: 5px;
    }
+
+   .catalogo{
+     display: none;
+   }
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
@@ -3017,6 +3026,10 @@ body {
     margin-left: 10px;
     text-align: center;
   }
+
+  .catalogo{
+    display: none;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1276px){
@@ -3547,5 +3560,8 @@ body {
     margin-right: 10px !important;
     margin-left: 10px;
     text-align: center;
+  }
+  .catalogo{
+    width: 980px;
   }
 }

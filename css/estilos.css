@@ -940,7 +940,7 @@ body {
   margin-bottom: 20px; }
 
 #publique{
-  width: 1250px !important;
+  width: auto !important;
   height: 430px !important;
   align-self: center;
   padding: 5px;
@@ -1100,7 +1100,7 @@ body {
     flex-direction: column !important;
     padding-top: 20px;
     width: 100%;
-    height: 550px !important;
+    height: 620px !important;
     margin-bottom: 20px !important;
     align-items: center !important;
   }
@@ -1349,7 +1349,6 @@ body {
     display:none;
   }
   
-  
   .datos{
     width: auto !important;
     height: 600px;
@@ -1437,6 +1436,95 @@ body {
   .quiero-suscribir{
     display: none;
   }
+
+  #publique{
+    width: auto !important;
+    height: 470px !important;
+    margin-left: 5px !important;
+    align-self: left !important;
+  }
+  
+  .publique-h3{
+    width: auto;
+    height: 55px;
+    margin-left: 5px;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .publique-h3-texto {
+    font-size: x-large;
+    padding: 2px;
+    text-align: center;
+    width: auto;
+    margin-bottom: 1rem;
+    }
+  
+  .mail {
+    width: auto !important;
+    margin-left: 10px !important;
+    margin-right: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+   }
+  
+   .mail-titulo{
+     margin-top: 10px;
+     margin-bottom: 5px;
+   }
+  
+   .resumen{
+     height: 120px;
+     margin-left: 10px;
+     margin-right: 10px;
+     padding: 5px;
+     margin-bottom: 10px;
+   }
+
+   .form-control--mail{
+     width: 300px !important;
+   }
+  
+   .resumen-escriba{
+     margin-bottom: 5px !important;
+   }
+  
+   .resumen-ancho{
+     width: 300px !important;
+   }
+  
+   .adjunte{
+     width: auto !important;
+     margin-left: 10px;
+     margin-right: 10px;
+     padding: 5px;
+     height: 120px !important;
+   }
+  
+   .adjunte-h3{
+    font-family: var(--bs-font-sans-serif) !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    width: auto !important;
+    margin: 0 0 5px 0 !important;
+   }
+  
+   .enviar{
+     width: auto;
+     margin-top: 10px;
+     margin-bottom: 0px;
+     padding: 5px;
+   }
+  
+   .btn-enviar{
+     border-radius: 5px !important;
+     background-color: rgb(56 76 158) !important;
+     border: 0 !important;
+     margin-top: 5px !important;
+     color: #fff;
+     margin-left: 0.5rem !important;
+   }
 }
 
 @media (min-width: 481px) and (max-width: 768px){
@@ -1498,7 +1586,7 @@ body {
     flex-direction: column !important;
     padding-top: 20px;
     width: 100%;
-    height: 550px !important;
+    height: 640px !important;
     margin-bottom: 20px !important;
     align-items: center !important;
   }
@@ -1849,6 +1937,95 @@ body {
   .quiero-suscribir{
     display: none;
   }
+
+  #publique{
+    width: 482px !important;
+    height: 430px !important;
+    margin-left: 5px !important;
+    align-self: left !important;
+  }
+  
+  .publique-h3{
+    width: 400px;
+    height: 45px;
+    margin-left: 5px;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .publique-h3-texto {
+    font-size: x-large;
+    padding: 2px;
+    text-align: center;
+    width: 450px;
+    margin-bottom: 1rem;
+    }
+  
+  .mail {
+    width: auto !important;
+    margin-left: 10px !important;
+    margin-right: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+   }
+  
+   .mail-titulo{
+     margin-top: 10px;
+     margin-bottom: 5px;
+   }
+  
+   .resumen{
+     height: 120px;
+     margin-left: 10px;
+     margin-right: 10px;
+     padding: 5px;
+     margin-bottom: 10px;
+   }
+
+   .form-control--mail{
+     width: 440px !important;
+   }
+  
+   .resumen-escriba{
+     margin-bottom: 5px !important;
+   }
+  
+   .resumen-ancho{
+     width: 440px !important;
+   }
+  
+   .adjunte{
+     width: auto !important;
+     margin-left: 10px;
+     margin-right: 10px;
+     padding: 5px;
+     height: 120px !important;
+   }
+  
+   .adjunte-h3{
+    font-family: var(--bs-font-sans-serif) !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    width: 400px !important;
+    margin: 0 0 5px 0 !important;
+   }
+  
+   .enviar{
+     width: auto;
+     margin-top: 10px;
+     margin-bottom: 0px;
+     padding: 5px;
+   }
+  
+   .btn-enviar{
+     border-radius: 5px !important;
+     background-color: rgb(56 76 158) !important;
+     border: 0 !important;
+     margin-top: 5px !important;
+     color: #fff;
+     margin-left: 0.5rem !important;
+   }
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
@@ -1910,7 +2087,7 @@ body {
     display: flex;
     flex-direction: row !important;
     padding-top: 15px;
-    width: 100%;
+    width: auto;
     height: 450px !important;
     margin-bottom: 10px !important;
     align-items: center !important;
@@ -2046,7 +2223,12 @@ body {
    }
   
   .menu-footer{
-    margin-right: 60px;
+    margin-right: 15px;
+  }
+
+  .contacto-footer{
+    margin-left: 15px;
+    margin-right: 30px;
   }
  
   .logo-footer{
@@ -2060,6 +2242,7 @@ body {
     margin-top: 10px !important;
     padding-right: 10px !important;
     color: white;
+    margin-right: 5px;
   }
 
   /*estilo en nosotros.html para mq*/
@@ -2164,8 +2347,7 @@ body {
     padding-left: 2px !important;
     text-align: center !important;
   }
-  
-  
+
   .datos{
     width: auto !important;
     height: 400px;
@@ -2179,7 +2361,6 @@ body {
     width: auto !important;
     height: 280px;
     padding: 5px;
-  
   }
   
   .img-datos{
@@ -2247,6 +2428,89 @@ body {
   .quiero-suscribir{
     display: none;
   }
+
+  #publique{
+    width: auto !important;
+    height: 430px !important;
+    margin-left: 5px !important;
+    align-self: center !important;
+  }
+  
+  .publique-h3{
+    width: auto;
+    height: 45px;
+  }
+  
+  .publique-h3-texto {
+    font-size: x-large;
+    padding: 2px;
+    text-align: center;
+    }
+  
+  .mail {
+    width: auto !important;
+    margin-left: 10px !important;
+    margin-right: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+   }
+  
+   .mail-titulo{
+     margin-bottom: 5px;
+   }
+  
+   .resumen{
+     height: 120px;
+     margin-left: 10px;
+     margin-right: 10px;
+     padding: 5px;
+     margin-bottom: 10px;
+   }
+
+   .form-control--mail{
+     width: 769px !important;
+   }
+  
+   .resumen-escriba{
+     margin-bottom: 5px !important;
+   }
+  
+   .resumen-ancho{
+     width: 769px !important;
+   }
+  
+   .adjunte{
+     width: auto !important;
+     margin-left: 10px;
+     margin-right: 10px;
+     padding: 5px;
+     height: 120px !important;
+   }
+  
+   .adjunte-h3{
+    font-family: var(--bs-font-sans-serif) !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    width: 400px !important;
+    margin: 0 0 5px 0 !important;
+   }
+  
+   .enviar{
+     width: auto;
+     margin-top: 10px;
+     margin-bottom: 0px;
+     padding: 5px;
+   }
+  
+   .btn-enviar{
+     border-radius: 5px !important;
+     background-color: rgb(56 76 158) !important;
+     border: 0 !important;
+     margin-top: 5px !important;
+     color: #fff;
+     margin-left: 0.5rem !important;
+   }
 }
 
 @media (min-width: 1025px) and (max-width: 1276px){
@@ -2310,7 +2574,7 @@ body {
     display: flex;
     flex-direction: row !important;
     padding-top: 15px;
-    width: 100%;
+    width: auto;
     height: 450px !important;
     margin-bottom: 10px !important;
     align-items: center !important;
@@ -2543,4 +2807,87 @@ body {
   .input-mail{
     width: 125px !important;
   }
+
+  #publique{
+    width: auto !important;
+    height: 430px !important;
+    margin-left: 2px !important;
+    align-self: left !important;
+  }
+  
+  .publique-h3{
+    width: auto;
+    height: 45px;
+  }
+  
+  .publique-h3-texto {
+    font-size: x-large;
+    padding: 2px;
+    text-align: center;
+    }
+  
+  .mail {
+    width: auto !important;
+    margin-left: 10px !important;
+    margin-right: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+   }
+  
+   .mail-titulo{
+     margin-bottom: 5px;
+   }
+  
+   .resumen{
+     height: 120px;
+     margin-left: 10px;
+     margin-right: 10px;
+     padding: 5px;
+     margin-bottom: 10px;
+   }
+
+   .form-control--mail{
+     width: 1025px !important;
+   }
+  
+   .resumen-escriba{
+     margin-bottom: 5px !important;
+   }
+  
+   .resumen-ancho{
+     width: 1025px !important;
+   }
+  
+   .adjunte{
+     width: auto !important;
+     margin-left: 10px;
+     margin-right: 10px;
+     padding: 5px;
+     height: 120px !important;
+   }
+  
+   .adjunte-h3{
+    font-family: var(--bs-font-sans-serif) !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    width: 400px !important;
+    margin: 0 0 5px 0 !important;
+   }
+  
+   .enviar{
+     width: auto;
+     margin-top: 10px;
+     margin-bottom: 0px;
+     padding: 5px;
+   }
+  
+   .btn-enviar{
+     border-radius: 5px !important;
+     background-color: rgb(56 76 158) !important;
+     border: 0 !important;
+     margin-top: 5px !important;
+     color: #fff;
+     margin-left: 0.5rem !important;
+   }
 }

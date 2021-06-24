@@ -889,7 +889,7 @@ body {
 }
 
 .input{
-  width: 200px !important;
+  width: 200px;
 }
 
 .apellido{
@@ -1302,6 +1302,141 @@ body {
   .txt-historia{
     margin-bottom: 12px;
   }
+
+  /*estilo a contacto.html mq*/
+
+  .newsletter{
+    width: auto !important;
+    display: flex;
+    flex-direction: column !important;
+    text-align: center !important;
+    height: 450px;
+  }
+  
+  .bloque-contenedor{
+    width: auto !important;
+    height: 1200px !important;
+    padding: 5px;
+  }
+
+  .titulo-nw{
+    margin-left: 0px !important;
+  }
+  
+  .imagen-nw{
+    padding: 15px;
+    padding-right: 2px !important;
+    padding-left: 2px !important;
+    height: 240px;
+    margin-top: 0px;
+  }
+  
+  .img-nw{
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px !important;
+  }
+  
+  .texto-nw{
+    padding: 0px 15px;
+    margin-top: 0px !important;
+    padding-left: 2px !important;
+    text-align: center !important;
+  }
+
+  .texto-nw-no{
+    display:none;
+  }
+  
+  
+  .datos{
+    width: auto !important;
+    height: 600px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column !important;
+    text-align: center;
+  }
+  
+  .bloque-conteneder-sus{
+    width: auto !important;
+    height: 280px;
+    padding: 5px;
+  }
+
+  .titulo-datos{
+    margin-left: 0;
+  }
+  
+  .img-datos{
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+  }
+  
+  .formulario-datos{
+    padding: 15px;
+    margin-top: 20px;
+    padding-left: 2px !important;
+    height: 210px;
+    background-color: rgb(199, 193, 193);
+    border-radius: 4px;
+  }
+  .margin-form{
+    margin-bottom: 15px !important;
+  }
+  
+  .apellido{
+    margin-left: 20px;
+  }
+  
+  .genero{
+    margin-right: 7px;
+  }
+  
+  .mail{
+    margin-left: 15px !important;
+  }
+  
+  .label{
+    margin-left: 5px !important;
+    margin-top: 15px !important;
+  }
+
+  .resetear{
+    display:none;
+  }
+  
+  .enviar{
+    margin-top: 20px !important;
+  }
+  
+  .enviar-btn{
+    margin-left: 120px !important;
+    color: white !important;
+    background-color: rgb(70, 71, 69) !important;
+    border: 0px;
+    border-radius: 4px !important;
+    height: 30px;
+    width: 70px;
+  }
+
+  .input{
+    width: 100px !important;
+  }
+
+  .input-mail{
+    width: 100px !important;
+  }
+
+  .quiero-suscribir{
+    display: none;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px){
@@ -1579,6 +1714,140 @@ body {
   
   .txt-historia{
     margin-bottom: 12px;
+  }
+
+  /*estilo a contacto.html mq*/
+
+  .newsletter{
+    width: auto !important;
+    display: flex;
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+  
+  .bloque-contenedor{
+    width: auto !important;
+    height: 1100px !important;
+    padding: 5px;
+  }
+
+  .titulo-nw{
+    margin-left: 0px !important;
+  }
+  
+  .imagen-nw{
+    padding: 15px;
+    padding-right: 2px !important;
+    padding-left: 2px !important;
+    height: 240px;
+    margin-top: 0px;
+  }
+  
+  .img-nw{
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px !important;
+  }
+  
+  .texto-nw{
+    padding: 0px 15px;
+    margin-top: 5px !important;
+    padding-left: 2px !important;
+    text-align: center !important;
+  }
+
+  .texto-nw-no{
+    display:none;
+  }
+  
+  
+  .datos{
+    width: auto !important;
+    height: 600px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column !important;
+    text-align: center;
+  }
+  
+  .bloque-conteneder-sus{
+    width: auto !important;
+    height: 280px;
+    padding: 5px;
+  }
+
+  .titulo-datos{
+    margin-left: 0;
+  }
+  
+  .img-datos{
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+  }
+  
+  .formulario-datos{
+    padding: 15px;
+    margin-top: 20px;
+    padding-left: 2px !important;
+    height: 210px;
+    background-color: rgb(199, 193, 193);
+    border-radius: 4px;
+  }
+  .margin-form{
+    margin-bottom: 15px !important;
+  }
+  
+  .apellido{
+    margin-left: 20px;
+  }
+  
+  .genero{
+    margin-right: 7px;
+  }
+  
+  .mail{
+    margin-left: 15px !important;
+  }
+  
+  .label{
+    margin-left: 5px !important;
+    margin-top: 15px !important;
+  }
+
+  .resetear{
+    display:none;
+  }
+  
+  .enviar{
+    margin-top: 20px !important;
+  }
+  
+  .enviar-btn{
+    margin-left: 120px !important;
+    color: white !important;
+    background-color: rgb(70, 71, 69) !important;
+    border: 0px;
+    border-radius: 4px !important;
+    height: 30px;
+    width: 70px;
+  }
+
+  .input{
+    width: 100px !important;
+  }
+
+  .input-mail{
+    width: 100px !important;
+  }
+
+  .quiero-suscribir{
+    display: none;
   }
 }
 
@@ -1861,6 +2130,122 @@ body {
   
   .txt-historia{
     margin-bottom: 12px;
+  }
+
+  /*estilo a contacto.html mq*/
+
+  .newsletter{
+    width: auto !important;
+  }
+  
+  .bloque-contenedor{
+    width: 1100px;
+    height: 250px;
+    padding: 5px;
+  }
+  
+  .imagen-nw{
+    padding: 15px;
+    padding-right: 2px !important;
+    height: 240px;
+    margin-top: 15px;
+  }
+  
+  .img-nw{
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px !important;
+  }
+  
+  .texto-nw{
+    padding: 15px;
+    margin-top: 30px !important;
+    padding-left: 2px !important;
+    text-align: center !important;
+  }
+  
+  
+  .datos{
+    width: auto !important;
+    height: 400px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .bloque-conteneder-sus{
+    width: auto !important;
+    height: 280px;
+    padding: 5px;
+  
+  }
+  
+  .img-datos{
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+  }
+  
+  .formulario-datos{
+    padding: 15px;
+    margin-top: 20px;
+    padding-left: 2px !important;
+    height: 210px;
+    background-color: rgb(199, 193, 193);
+    border-radius: 4px;
+  }
+  .margin-form{
+    margin-bottom: 15px !important;
+  }
+  
+  .apellido{
+    margin-left: 20px;
+  }
+  
+  .genero{
+    margin-right: 7px;
+  }
+  
+  .mail{
+    margin-left: 15px !important;
+  }
+  
+  .label{
+    margin-left: 5px !important;
+    margin-top: 15px !important;
+  }
+
+  .resetear{
+    display:none;
+  }
+  
+  .enviar{
+    margin-top: 20px !important;
+  }
+  
+  .enviar-btn{
+    margin-left: 120px !important;
+    color: white !important;
+    background-color: rgb(70, 71, 69) !important;
+    border: 0px;
+    border-radius: 4px !important;
+    height: 30px;
+    width: 70px;
+  }
+
+  .input{
+    width: 100px !important;
+  }
+
+  .input-mail{
+    width: 100px !important;
+  }
+
+  .quiero-suscribir{
+    display: none;
   }
 }
 
@@ -2149,5 +2534,13 @@ body {
   
   .txt-historia{
     margin-bottom: 12px;
+  }
+
+  .input{
+    width: 120px !important;
+  }
+
+  .input-mail{
+    width: 125px !important;
   }
 }

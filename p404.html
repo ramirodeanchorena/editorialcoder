@@ -11,35 +11,37 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
+
 <body>
+    <!--código del header que estará en cada archivo .html, con pequeños cambios en cada uno de ellos-->
     <header class="cabecera">
-        <div class="container-menu">
-            <div class="linea-menu">
-                <figure class="logo"> 
+        <div class="menu__container">
+            <div class="menu__container--row">
+                <figure class="logo"> <!--logo de la empresa-->
                     <a href="index.html">
-                        <img src="./img/logo.png" alt="logo">
+                        <img src="./img/logo.png" alt="logo de la empresa donde se lee su nombre">
                     </a>
                 </figure> 
-                <nav class="menu">
+                <nav class="menu"><!--el menú ubicado en el header. común a cada archivo .html-->
                     <ul class="nav">
                         <li><a href="index.html" class="nav-link px-2 text-nav">Inicio</a></li>
                         <li><a href="nosotros.html" class="nav-link px-2 text-nav">Nosotros</a></li>
                         <li><a href="autores.html" class="nav-link px-2 text-nav">Autores</a></li>
                         <li><a href="catalogo.html" class="nav-link px-2 text-nav">Catálogo</a></li>
-                        <li><a href="contacto.html" class="nav-link px-2 text-nav contacto-menu">Contacto</a>
-                            <ul class="ul-submenu">
-                                <li><a href="publique.html" class="nav-link px-2 text-nav submenu">Publicá con nosotros</a></li>
+                        <li><a href="contacto.html" class="nav-link px-2 text-nav menu__btn--contacto">Contacto</a>
+                            <ul class="submenu"><!--submenú-->
+                                <li><a href="publique.html" class="nav-link px-2 text-nav submenu__btn--publique">Publicá con nosotros</a></li>
                             </ul>
                         </li>
                     </ul>
                 </nav>
-                <div class="text-end">
-                    <button type="button" class="btn">
-                        <a class="btn-publica" href="publique.html">Publicá tu libro</a>
+                <div>
+                    <button type="button" class="btn"><!--botón a formulario para que usuario envíe su libro-->
+                        <a class="btn__publique" href="publique.html">Publicá tu libro</a>
                     </button>
                 </div>
-                <form class="busca me-lg-3">
-                    <input type="search" class="form-control form-control-dark" placeholder="Busca un libro..." aria-label="Search">
+                <form class="me-lg-3"><!--input para búsquedas por parte del usuario-->
+                    <input type="search" class="form-control form-control-dark" placeholder="Buscá un libro..." aria-label="Search">
                 </form>         
             </div>
         </div>

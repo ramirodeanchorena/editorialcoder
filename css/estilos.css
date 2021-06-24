@@ -259,7 +259,6 @@ body {
   background: #7a848e;
 }
 
-
 .submenu-footer{
   margin-top: 0px !important;
   margin-left: 2px !important;
@@ -432,7 +431,6 @@ body {
   font-size:larger;
   text-align: center;
   margin: 10px 5px 10px 5px;
-
 }
 
 .celebre{
@@ -1525,6 +1523,184 @@ body {
      color: #fff;
      margin-left: 0.5rem !important;
    }
+
+   .autores-texto{
+    margin-bottom: 6px;
+    align-content: center;
+    text-align: center;
+  }
+  
+  .contenedor-bossi{
+    width: 320px;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    background-color: #fff;
+    height: 720px;
+    border-radius: 5px;
+  }
+  
+  .autores__bossi{
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+  }
+  
+  .bossi-foto{
+    padding-left: 5px;
+  }
+  
+  .bossi-texto{
+    width: auto;
+    padding-top: 20px !important;
+    padding-left: 2px !important;
+    text-align: center;
+  }
+  
+  .bossi-historia{
+    width: auto !important;
+    margin-right: 10px !important;
+    margin-left: 10px;
+    justify-content: center;
+  }
+  
+  .contenedor-gonzalez{
+    width: 320px;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    background-color: #fff;
+    height: 720px;
+    border-radius: 5px;
+  }
+  
+  .autores__gonzalez{
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+  }
+  
+  .gonzalez-foto{
+    padding-left: 5px;
+  }
+  
+  .gonzalez-texto{
+    width: auto;
+    padding-top: 20px !important;
+    padding-left: 2px !important;
+    text-align: center;
+  }
+  
+  .gonzalez-historia{
+    width: auto !important;
+    margin-right: 10px !important;
+    margin-left: 10px;
+    justify-content: center;
+  }
+  
+  .contenedor-frugoni{
+    width: 320px;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    background-color: #fff;
+    height: 760px;
+    border-radius: 5px;
+  }
+  
+  .autores__frugoni{
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+    margin-left: 10px !important;
+  }
+  
+  .frugoni-foto{
+    padding-left: 5px;
+  }
+  
+  .frugoni-texto{
+    width: auto;
+    padding-top: 20px !important;
+    padding-left: 2px !important;
+    text-align: center;
+  }
+  
+  .frugoni-historia{
+    width: auto !important;
+    margin-right: 10px !important;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  
+  .autores__frugoni--foto{
+    border-radius: 2%;
+  }
+  
+  .contenedor-castillo{
+    width: 320px;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    background-color: #fff;
+    height: 765px;
+    border-radius: 5px;
+  }
+  
+  .autores__castillo{
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+    margin-left: 10px !important;
+  }
+  
+  .castillo-foto{
+    padding-left: 5px;
+  }
+  
+  .castillo-texto{
+    width: auto;
+    padding-top: 20px !important;
+    padding-left: 2px !important;
+    text-align: center;
+  }
+  
+  .castillo-historia{
+    width: auto !important;
+    margin-right: 10px !important;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  
+  .autores__castillo--foto{
+    border-radius: 2%;
+  }
+  
+  .autores {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
+    margin-bottom: 15px;
+    /*para dar estilo a las imágenes y texto de cada autor*/ }
+    .autores .autores__bossi {
+      /*para modelar la clase .autores__bossi*/
+      margin: 10px 10px 10px 10px;
+      text-align: justify;
+      margin-top: 10px !important;
+      padding-right: 10px; }
+    .autores .autores__bossi--foto {
+      border-radius: 2%; }
+    .autores .autores__gonzalez {
+      /*para modelar la clase .gonzalez*/
+      margin: 10px 10px 10px 10px;
+      text-align: justify;
+      padding-right: 10px; }
+    .autores .autores__gonzalez--foto {
+      border-radius: 2%; }
+    .autores p {
+      width: 47%;
+      color: black; }
+  
+  /*más caracaterísticas en el bloque de la clase "autores"*/
+  .autores .btn {
+    text-align: left;
+    justify-content: left;
+    background-color: royalblue;
+    margin-left: 10px;
+    margin-top: 5px;
+   }
 }
 
 @media (min-width: 481px) and (max-width: 768px){
@@ -1709,6 +1885,10 @@ body {
     align-items: left !important;
     margin-top: 10px;
    }
+
+   .container-fluid{
+     width: 600px !important;
+   }
   
   .menu-footer{
     margin-right: 60px;
@@ -1729,6 +1909,7 @@ body {
     margin-top: 10px !important;
     padding-right: 10px !important;
     color: white;
+    
   }
 
   /*estilo en nosotros.html para mq*/
@@ -1848,7 +2029,6 @@ body {
   .texto-nw-no{
     display:none;
   }
-  
   
   .datos{
     width: auto !important;
@@ -2025,6 +2205,180 @@ body {
      margin-top: 5px !important;
      color: #fff;
      margin-left: 0.5rem !important;
+   }
+  
+  .autores-texto{
+    margin-bottom: 6px;
+    align-content: center;
+    text-align: center;
+  }
+  
+  .contenedor-bossi{
+    width: 482px;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    background-color: #fff;
+    height: 670px;
+    border-radius: 5px;
+  }
+  
+  .autores__bossi{
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+  }
+  
+  .bossi-foto{
+    padding-left: 35px;
+  }
+  
+  .bossi-texto{
+    width: auto;
+    padding-top: 20px !important;
+    padding-left: 2px !important;
+  }
+  
+  .bossi-historia{
+    width: auto !important;
+    margin-right: 10px !important;
+    margin-left: 10px;
+    justify-content: center;
+  }
+  
+  .contenedor-gonzalez{
+    width: 482px;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    background-color: #fff;
+    height: 670px;
+    border-radius: 5px;
+  }
+  
+  .autores__gonzalez{
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+  }
+  
+  .gonzalez-foto{
+    padding-left: 35px;
+  }
+  
+  .gonzalez-texto{
+    width: auto;
+    padding-top: 20px !important;
+    padding-left: 2px !important;
+  }
+  
+  .gonzalez-historia{
+    width: auto !important;
+    margin-right: 10px !important;
+    margin-left: 10px;
+    justify-content: center;
+  }
+  
+  .contenedor-frugoni{
+    width: 482px;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    background-color: #fff;
+    height: 670px;
+    border-radius: 5px;
+  }
+  
+  .autores__frugoni{
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+    margin-left: 10px !important;
+  }
+  
+  .frugoni-foto{
+    padding-left: 35px;
+  }
+  
+  .frugoni-texto{
+    width: auto;
+    padding-top: 20px !important;
+    padding-left: 2px !important;
+  }
+  
+  .frugoni-historia{
+    width: auto !important;
+    margin-right: 10px !important;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  
+  .autores__frugoni--foto{
+    border-radius: 2%;
+  }
+  
+  .contenedor-castillo{
+    width: 482px;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    background-color: #fff;
+    height: 690px;
+    border-radius: 5px;
+  }
+  
+  .autores__castillo{
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+    margin-left: 10px !important;
+  }
+  
+  .castillo-foto{
+    padding-left: 35px;
+  }
+  
+  .castillo-texto{
+    width: auto;
+    padding-top: 20px !important;
+    padding-left: 2px !important;
+  }
+  
+  .castillo-historia{
+    width: auto !important;
+    margin-right: 10px !important;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  
+  .autores__castillo--foto{
+    border-radius: 2%;
+  }
+  
+  .autores {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
+    margin-bottom: 15px;
+    /*para dar estilo a las imágenes y texto de cada autor*/ }
+    .autores .autores__bossi {
+      /*para modelar la clase .autores__bossi*/
+      margin: 10px 10px 10px 10px;
+      text-align: justify;
+      margin-top: 10px !important;
+      padding-right: 10px; }
+    .autores .autores__bossi--foto {
+      border-radius: 2%; }
+    .autores .autores__gonzalez {
+      /*para modelar la clase .gonzalez*/
+      margin: 10px 10px 10px 10px;
+      text-align: justify;
+      padding-right: 10px; }
+    .autores .autores__gonzalez--foto {
+      border-radius: 2%; }
+    .autores p {
+      width: 47%;
+      color: black; }
+  
+  /*más caracaterísticas en el bloque de la clase "autores"*/
+  .autores .btn {
+    text-align: left;
+    justify-content: left;
+    background-color: royalblue;
+    margin-left: 10px;
+    margin-top: 5px;
    }
 }
 
@@ -2511,6 +2865,158 @@ body {
      color: #fff;
      margin-left: 0.5rem !important;
    }
+
+   .autores-separador{
+    width: 100%;
+    height: 180px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .autores-h1{
+    padding: 10px;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .autores-texto{
+    margin-bottom: 6px;
+    align-content: center;
+    text-align: center;
+  }
+  
+  .contenedor-bossi{
+    width: 600px;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    background-color: #fff;
+    height: 670px;
+    border-radius: 5px;
+  }
+  
+  .autores__bossi{
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+  }
+  
+  .bossi-foto{
+    padding-left: 35px;
+    margin-left: 2rem;
+  }
+  
+  .bossi-texto{
+    width: 600px;
+    padding-top: 20px !important;
+    padding-left: 2px !important;
+  }
+  
+  .bossi-historia{
+    width: 500px !important;
+    margin-right: 10px !important;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .contenedor-gonzalez{
+    width: 600px;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    background-color: #fff;
+    height: 670px;
+    border-radius: 5px;
+  }
+  
+  .autores__gonzalez{
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+  }
+  
+  .gonzalez-foto{
+    padding-left: 35px;
+    margin-left: 2rem;
+  }
+  
+  .gonzalez-texto{
+    width: 600px;
+    padding-top: 20px !important;
+    padding-left: 2px !important;
+  }
+  
+  .gonzalez-historia{
+    width: 500px !important;
+    margin-right: 10px !important;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .contenedor-frugoni{
+    width: 600px;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    background-color: #fff;
+    height: 670px;
+    border-radius: 5px;
+  }
+  
+  .autores__frugoni{
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+    margin-left: 10px !important;
+  }
+  
+  .frugoni-foto{
+    padding-left: 35px;
+    margin-left: 2rem;
+  }
+  
+  .frugoni-texto{
+    width: 600px;
+    padding-top: 20px !important;
+    padding-left: 2px !important;
+  }
+  
+  .frugoni-historia{
+    width: 500px !important;
+    margin-right: 10px !important;
+    justify-content: center;
+    margin-left: 10px;
+    text-align: center;
+  }
+  
+  .contenedor-castillo{
+    width: 600px;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    background-color: #fff;
+    height: 690px;
+    border-radius: 5px;
+  }
+  
+  .autores__castillo{
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+    margin-left: 10px !important;
+  }
+  
+  .castillo-foto{
+    padding-left: 35px;
+    margin-left: 2rem;
+  }
+  
+  .castillo-texto{
+    width: 600px;
+    padding-top: 20px !important;
+    padding-left: 2px !important;
+  }
+  
+  .castillo-historia{
+    width: 500px !important;
+    margin-right: 10px !important;
+    margin-left: 10px;
+    text-align: center;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1276px){
@@ -2890,4 +3396,156 @@ body {
      color: #fff;
      margin-left: 0.5rem !important;
    }
+
+   .autores-separador{
+    width: 100%;
+    height: 180px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .autores-h1{
+    padding: 10px;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .autores-texto{
+    margin-bottom: 6px;
+    align-content: center;
+    text-align: center;
+  }
+  
+  .contenedor-bossi{
+    width: 1024px;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    background-color: #fff;
+    height: 450px;
+    border-radius: 5px;
+  }
+  
+  .autores__bossi{
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+  }
+  
+  .bossi-foto{
+    padding-left: 35px;
+    margin-left: 2rem;
+  }
+  
+  .bossi-texto{
+    width: 500px;
+    padding-top: 20px !important;
+    padding-left: 2px !important;
+  }
+  
+  .bossi-historia{
+    width: 500px !important;
+    margin-right: 10px !important;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .contenedor-gonzalez{
+    width: 1024px;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    background-color: #fff;
+    height: 450px;
+    border-radius: 5px;
+  }
+  
+  .autores__gonzalez{
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+  }
+  
+  .gonzalez-foto{
+    padding-left: 35px;
+    margin-left: 2rem;
+  }
+  
+  .gonzalez-texto{
+    width: 500px;
+    padding-top: 20px !important;
+    padding-left: 2px !important;
+  }
+  
+  .gonzalez-historia{
+    width: 500px !important;
+    margin-right: 10px !important;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .contenedor-frugoni{
+    width: 1024px;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    background-color: #fff;
+    height: 450px;
+    border-radius: 5px;
+  }
+  
+  .autores__frugoni{
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+    margin-left: 10px !important;
+  }
+  
+  .frugoni-foto{
+    padding-left: 35px;
+    margin-left: 2rem;
+  }
+  
+  .frugoni-texto{
+    width: 500px;
+    padding-top: 20px !important;
+    padding-left: 2px !important;
+  }
+  
+  .frugoni-historia{
+    width: 500px !important;
+    margin-right: 10px !important;
+    justify-content: center;
+    margin-left: 10px;
+    text-align: center;
+  }
+  
+  .contenedor-castillo{
+    width: 1024px;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    background-color: #fff;
+    height: 450px;
+    border-radius: 5px;
+  }
+  
+  .autores__castillo{
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+    margin-left: 10px !important;
+  }
+  
+  .castillo-foto{
+    padding-left: 35px;
+    margin-left: 2rem;
+  }
+  
+  .castillo-texto{
+    width: 500px;
+    padding-top: 20px !important;
+    padding-left: 2px !important;
+  }
+  
+  .castillo-historia{
+    width: 500px !important;
+    margin-right: 10px !important;
+    margin-left: 10px;
+    text-align: center;
+  }
 }

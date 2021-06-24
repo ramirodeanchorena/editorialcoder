@@ -15,16 +15,16 @@
 </head>
 
 <body>
-  <header class="cabecera text-white">
-    <div class="container container-menu">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+  <header class="cabecera">
+    <div class="container-menu">
+        <div class="linea-menu">
           <figure class="logo"> 
             <a href="index.html">
               <img src="./img/logo.png" alt="logo">
             </a>
           </figure> 
           <nav class="menu">
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <ul class="nav">
               <li><a href="index.html" class="nav-link px-2 inicio">Inicio</a></li>
               <li><a href="nosotros.html" class="nav-link px-2 text-nav">Nosotros</a></li>
               <li><a href="autores.html" class="nav-link px-2 text-nav">Autores</a></li>
@@ -41,33 +41,33 @@
               <a class="btn-publica" href="publique.html">Publicá tu libro</a>
             </button>
           </div>
-          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <form class="busca me-lg-3">
             <input type="search" class="form-control form-control-dark" placeholder="Busca un libro..." aria-label="Search">
           </form>         
         </div>
     </div>
   </header>
     
-  <main>
+  <section>
     <div class="presentacion">
       <div class="presentacion-container">
-          <div class="row container-h1">
+          <div class="row container-h1 col-12">
               <div class="col-xs-12 col-md-12 container-h1-margen">
                 <h1 class="centrado nosotros-h1">Editorial Lumiere</h1>
               </div>
           </div>
           <div class="row">
-              <div class="col-xs-12 col-md-4">  
+              <div class="col-sm-12 col-md-4">  
                 <h2 class="centrado">Autores</h2>
                 <p class="presentacion-fuente">Donde hay buenos escritores, hay buenos libros. Por eso en Lumiere contamos 
                   con los mejores. Vos también podés ser uno de ellos.</p>
               </div>
-              <div class="col-xs-12 col-md-4">
+              <div class="col-sm-12 col-md-4">
                 <h2 class="centrado">Libros</h2>
                 <p class="presentacion-fuente">Sumergite en los libros que publicamos, cada uno de ellos es una historia
                    que enriquecerá tu vida.</p>
               </div>
-              <div class="col-xs-12 col-md-4">
+              <div class="col-sm-12 col-md-4">
                 <h2 class="centrado">Comunidad</h2>
                 <p class="presentacion-fuente">Lumiere es una gran familia, y disfrutamos de poder compartir 
                   con la comunidad nuestra pasión por la lectura.</p>
@@ -75,8 +75,10 @@
           </div>
       </div>
     </div>
+  </section>
 
     <!--Aquí comienza la sección novedades editadas recientemente por la editorial-->
+  <main>
     <div>
       <h2 class="novedades">Novedades del mes</h2>
     </div>
@@ -140,19 +142,19 @@
                 <img class="libro img-fluid" src="./img/libro6.png" alt="quinto libro">
                 <p class="nombre">Asesino de brujas</p>
               </div>
-              <div class="libroContainer col-lg-3 col-md-4">
+              <div class="libroContainer min-no col-lg-3 col-md-4">
                 <img class="libro img-fluid" src="./img/Copia de Sin título (13).png" alt="quinto libro">
                 <p class="nombre">Liberado</p>
               </div>
-              <div class="libroContainer col-lg-3 col-md-4">
-                <img class="libro img-fluid" src="./img/Copia de Sin título (15).png" alt="quinto libro">
+              <div class="libroContainer min-no col-lg-3 col-md-4">
+                <img class="libro img-fluid min-no" src="./img/Copia de Sin título (15).png" alt="quinto libro">
                 <p class="nombre">Los siete maridos</p>
               </div>
-              <div class="libroContainer col-lg-3 col-md-4">
+              <div class="libroContainer min-no col-lg-3 col-md-4">
                 <img class="libro img-fluid" src="./img/Copia de Sin título (8).png" alt="quinto libro">
                 <p class="nombre">Dos soledades</p>
               </div>
-              <div class="libroContainer col-lg-3 col-md-4">
+              <div class="libroContainer min-no col-lg-3 col-md-4">
                 <img class="libro img-fluid" src="./img/Copia de Sin título (9).png" alt="quinto libro">
                 <p class="nombre">Marwán</p>
               </div>
@@ -172,7 +174,8 @@
             
           </div>  
         </section>
-
+  </main>
+    <section>
       <div class="contenedor-frases">
         <div class="frase">
           <p class="frase-diseno">“Uno no es lo que es por lo que escribe, sino por lo que ha leído.”</p>
@@ -187,8 +190,7 @@
           <p class="celebre">Julio Cortázar</p>
         </div>
       </div>
-    
-    </main>
+    </section>
 
     <!--Aquí comienza el footer, que será el mismo en todos los archivos .html-->
     <footer id="pie" class="container-fluid col-lg-12 col-md-12">

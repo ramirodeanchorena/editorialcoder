@@ -81,6 +81,12 @@ body {
   border-radius: 0.25rem !important; 
 }
 
+.btn__contacto--footer{
+  color: white !important;
+  background-color:#76789c;
+  border-radius: 0.25rem;
+}
+
 .btn__catalogo{
   color: white !important;
   background-color: #3a4d5e;

@@ -11,7 +11,7 @@ body {
   flex-direction: row;
   height: 300px !important;
   width: auto;
-  background-image: url(../img/parapruebacabecera.png);
+  background-image: url(../img/fotoheader.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: content-box;

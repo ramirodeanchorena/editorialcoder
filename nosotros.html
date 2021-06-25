@@ -81,81 +81,86 @@
         </div>
     </section>
 
-  <section class="container integrantes">
-        <div class="row">
-            <div class="col-md-4 container-editor">
-                <img class="img-fluid" src="./img/editor2.png" alt="foto del editor">
-                <h3 class="nombre-nosotros">Ramiro de Anchorena</h3>
-                <h4 class="cargo-h4">Editor de Lumiere</h4>
+    <!--Comienzo del main en nosotros.html-->
+    <main>
+        <!--Inicio de la sección donde se expone la información del staff de la empresa-->
+        <section class="integrantes">
+            <div class="row">
+                <div class="col-md-4 container-editor"><!--información del editor-->
+                    <img class="img-fluid" src="./img/editor.png" alt="foto del editor de Lumiere">
+                    <h3 class="integrantes-nombre">Ramiro de Anchorena</h3>
+                    <h4 class="integrantes-cargo">Editor de Lumiere</h4>
+                </div>
+                <div class="col-md-4 container-editor"><!--información de la diseñadora-->
+                    <img class="img-fluid" src="./img/diseñadora.png" alt="foto de la diseñadora">
+                    <h3 class="integrantes-nombre">Laura Detomaso</h3>
+                    <h4 class="integrantes-cargo">Diseñadora</h4>
+                </div>
+                <div class="col-md-4 container-editor"><!--información del empleado administrativo-->
+                    <img class="img-fluid" src="./img/administrativo.png" alt="foto del empleado administrativo">
+                    <h3 class="integrantes-nombre">Darío Muras</h3>
+                    <h4 class="integrantes-cargo">Administración</h4>
+                </div>
             </div>
-            <div class="col-md-4 container-editor">
-                <img class="img-fluid" src="./img/diseñadora.png" alt="foto de la diseñadora">
-                <h3 class="nombre-nosotros">Laura Detomaso</h3>
-                <h4 class="cargo-h4">Diseñadora</h4>
+        </section>
+
+        <!--Inicio de sección que cuenta la historia de la empresa-->
+        <div class="container historia-container">
+            <div>
+                <h3 class="historia-titulo">Nuestra historia</h2>
             </div>
-            <div class="col-md-4 container-editor">
-                <img class="img-fluid" src="./img/empleado350.png" alt="foto del empleado administrativo">
-                <h3 class="nombre-nosotros">Darío Muras</h3>
-                <h4 class="cargo-h4">Administración</h4>
+            <div class="row bloque-contenedor-historia">
+                <div class="col-md-5 historia-imagen">
+                    <img src="./img/oficinaHistoria.png" class="img-responsive img-fluid img-historia" alt="imagen de la oficina de Lumiere">
+                </div>
+                <div class="col-md-7 texto-historia">
+                    <p class="historia-p">
+                    La editorial nació el 10 de diciembre de 2001 en el barrio porteño de Belgrano. 
+                        La pasión por los libros de la familia Anchorena por fin quedaba plasmada en un proyecto que llevaba años de charlas e ideas.
+                    </p>
+                    <p class="historia-p">
+                    Una vez instalada la oficina, comenzaron a darse los primeros pasos. 
+                        La crisis que sacudía al país no pudo frenar el impulso y las ganas de crecer en el mundo editorial.
+                    </p>
+                    <p class="historia-p">
+                    Desde entonces la editorial no ha parado de crecer, con un staff sólido, los autores más respetados 
+                    y leídos del mercado, y un público que confía en nuestras publicaciones.
+                    </p>
+                </div>
             </div>
         </div>
-
-
-  </section>
-
-<div class="container container-historia">
-    <div>
-        <h3 class="titulo-historia">Nuestra historia</h3>
-    </div>
-    <div class="row bloque-contenedor">
-        <div class="col-md-5 imagen-historia">
-            <img src="./img/historiaofi.png" class="img-fluid img-responsive img-historia" alt="imagen de mujer leyendo">
-        </div>
-        <div class="col-md-7 texto-historia">
-            <p class="txt-historia">
-                La editorial nació el 10 de diciembre de 2001 en el barrio porteño de Belgrano. La pasión por los libros de la familia Anchorena por fin quedaba plasmada en un proyecto que llevaba años de charlas e ideas.
-            </p>
-            <p class="txt-historia">
-                Una vez instalada la oficina, comenzaron a darse los primeros pasos. La crisis que sacudía al país no pudo frenar el impulso y las ganas de crecer en el mundo editorial.
-            </p>
-            <p class="txt-historia">
-                Desde entonces la editorial no ha parado de crecer, con un staff sólido, los autores más respetados y leídos del mercado, y un público que confía en nuestras publicaciones.
-            </p>
-        </div>
-    </div>
-</div>
-
+    </main>
         
-<!--Aquí comienza el footer, que será el mismo en todos los archivos .html con cambios según media query-->
-<footer id="footer" class="container-fluid">
-    <nav class="menu-footer"><!--menú de navegación del footer-->
-        <ul class="menu-footer-estilo">
-            <li><a class="nav-link text-white" href="index.html">Inicio</a></li>
-            <li><a class="nav-link text-white btn__nosotros--footer" href="nosotros.html">Nosotros</a></li>
-            <li><a class="nav-link text-white" href="autores.html">Autores</a></li>
-            <li><a class="nav-link text-white" href="catalogo.html">Catálogo</a></li>
-            <li><a class="nav-link text-white" href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav> 
-    <div class="contacto-footer"><!--Datos de contacto de la editorial en el footer-->
-        <p class="text-footer">Ponete en contacto</p>
-        <p class="text-footer">Teléfono: 45432425</p>
-        <p class="text-footer">Dirección: Sucre 2920 PB A</p>
-        <p class="text-footer">Mail: info@lumiere.com</p>
-    </div>
-    <div class="logo-footer"><!--logo de la editorial, éste con las letras de Lumiere en negro-->
-        <figure class="logo"> 
-            <a href="index.html">
-                <img src="./img/logoFooter.png" alt="logo de la editorial">
-            </a>
-        </figure>
-    </div>
-    <div class="copyright-footer"><!--copyright en el footer-->
-        <p>Copyright © 2001-2021 Editorial Lumiere S.A.</p>
-        <p>TODOS LOS DERECHOS RESERVADOS.</p>
-        <p>Sucre 2920 PB A (C1428) CABA - CUIT Nº: 30-936802-0</p>
-    </div>
-</footer>
+    <!--Aquí comienza el footer, que será el mismo en todos los archivos .html con cambios según media query-->
+    <footer id="footer" class="container-fluid">
+        <nav class="menu-footer"><!--menú de navegación del footer-->
+            <ul class="menu-footer-estilo">
+                <li><a class="nav-link text-white" href="index.html">Inicio</a></li>
+                <li><a class="nav-link text-white btn__nosotros--footer" href="nosotros.html">Nosotros</a></li>
+                <li><a class="nav-link text-white" href="autores.html">Autores</a></li>
+                <li><a class="nav-link text-white" href="catalogo.html">Catálogo</a></li>
+                <li><a class="nav-link text-white" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav> 
+        <div class="contacto-footer"><!--Datos de contacto de la editorial en el footer-->
+            <p class="text-footer">Ponete en contacto</p>
+            <p class="text-footer">Teléfono: 45432425</p>
+            <p class="text-footer">Dirección: Sucre 2920 PB A</p>
+            <p class="text-footer">Mail: info@lumiere.com</p>
+        </div>
+        <div class="logo-footer"><!--logo de la editorial, éste con las letras de Lumiere en negro-->
+            <figure class="logo"> 
+                <a href="index.html">
+                    <img src="./img/logoFooter.png" alt="logo de la editorial">
+                </a>
+            </figure>
+        </div>
+        <div class="copyright-footer"><!--copyright en el footer-->
+            <p>Copyright © 2001-2021 Editorial Lumiere S.A.</p>
+            <p>TODOS LOS DERECHOS RESERVADOS.</p>
+            <p>Sucre 2920 PB A (C1428) CABA - CUIT Nº: 30-936802-0</p>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

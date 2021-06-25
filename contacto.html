@@ -30,7 +30,7 @@
                         <li><a href="nosotros.html" class="nav-link px-2 text-nav">Nosotros</a></li>
                         <li><a href="autores.html" class="nav-link px-2 text-nav">Autores</a></li>
                         <li><a href="catalogo.html" class="nav-link px-2 text-nav">Catálogo</a></li>
-                        <li><a href="contacto.html" class="nav-link px-2 menu__btn--contacto btn__contacto">Contacto</a>
+                        <li><a href="contacto.html" class="nav-link px-2 btn__contacto">Contacto</a>
                             <ul class="submenu"><!--submenú-->
                                 <li><a href="publique.html" class="nav-link px-2 text-nav submenu__btn--publique">Publicá con nosotros</a></li>
                             </ul>
@@ -76,17 +76,18 @@
         </div>
     </section>
         
-
-        <div class="container newsletter">
+    <!--Comienzo del main con información del newsletter y formulario para suscribirse-->
+    <main>
+        <div class="container newsletter"><!--información del newsletter-->
             <div>
                 <h2 class="titulo-nw">Newsletter</h2>
             </div>
             <div class="row bloque-contenedor">
-                <div class="col-md-5 imagen-nw">
-                    <img src="./img/newsletter.png" class="img-responsive img-fluid img-nw" alt="imagen de mujer leyendo">
+                <div class="col-md-5 imagen-nw"><!--foto del contenedor newsletter-->
+                    <img src="./img/newsletter.png" class="img-responsive img-fluid img-nw" alt="foto de mujer leyendo acompaña texto de newesletter">
                 </div>
                 <div class="col-md-7 texto-nw">
-                    <p class="txt-nw">
+                    <p class="txt-nw"><!--texto del newsletter-->
                         Suscribite a nuestro newsletter para recibir las novedades de la editorial, información sobre los autores, y todo acerca de nuestras publicaciones.
                     </p>
                     <p class="txt-nw texto-nw-no">
@@ -95,7 +96,7 @@
                 </div>
             </div>
         </div>
-        <div class="container datos">
+        <div class="container datos"><!--container con formulario para que el usuario complete-->
             <div>
                 <h2 class="titulo-datos">Suscribite</h2>
             </div>
@@ -104,48 +105,42 @@
                     <img src="./img/newsletterformulario.png" class="img-responsive img-fluid img-datos" alt="imagen con libros que acompaña el formulario para suscribirse al newsletter">
                 </div>
                 <div class="col-md-7 formulario-datos">
-                    <form class="form">
+                    <form class="form"><!--formulario para suscribirse al newsletter-->
                         <fieldset>
-                            <div class="margin-form">
+                            <div class="margin-form"><!--nombre y apellido-->
                                 <label for="nombre">Nombre:</label>
                                 <input class="input" name="nombre" type="text" tabindex="1">
                                 <label class="apellido" for="apellido">Apellido:</label>
                                 <input class="input" name="apellido" type="text" tabindex="2">
                             </div>
                             <div>
-                                <label class="genero" for="genero">Género:</label>
+                                <label class="genero" for="genero">Género:</label><!--g+enero-->
                                 <select class="input" name="Género">
                                     <option value="Masculino">Masculino</option>
                                     <option value="Femenino">Femenino</option>
                                     <option value="Otro">Otro</option>         
                                 </select>
-                                <label class="mail" for="mail">Mail:</label>
+                                <label class="mail" for="mail">Mail:</label><!--mail-->
                                 <input class="input-mail" name="mail" type="text" tabindex="3">
                             </div>
-                            <div>
+                            <div><!--inputs para aceptar condiciones y suscribirse al newsletter-->
                                 <label class="quiero-suscribir" for="checkbox1">Quiero recibir el newsletter</label>
                                 <input class="quiero-suscribir" type="checkbox" tabindex="30" name="condiciones" value="recibirCondiciones">
                                 <label class="label" for="checkbox2">Acepto las condiciones</label>
                                 <input type="checkbox" tabindex="30" name="condiciones" value="aceptaCondiciones">
                             </div>
-                            <div class="enviar">
+                            <div class="enviar"><!--enviar el formulario-->
                                 <label for="reset"></label>
                                 <input class="resetear" type="reset" value="Resetear formulario"/>
                                 <label for="submit"></label>
                                 <input class="enviar-btn" type="submit" value="Enviar"/>
                             </div>
                         </fieldset>
-
                     </form>
-
                 </div>
-
-
             </div>
         </div>
-
-        <section>
-            
+    </main>        
         
     <!--Aquí comienza el footer, que será el mismo en todos los archivos .html con cambios según media query-->       
     <footer id="footer" class="container-fluid">

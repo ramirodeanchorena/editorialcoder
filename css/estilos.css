@@ -167,6 +167,10 @@ body {
   text-decoration: none !important;
 }
 
+.btn__comprar{
+  margin-left: 50px !important;
+}
+
 /*estilo a la sección "presentación", que estará en todos los archivos html, con pequeños cambios en cada uno*/
 .presentacion{
   display: flex;

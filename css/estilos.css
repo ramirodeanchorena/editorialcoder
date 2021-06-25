@@ -57,6 +57,12 @@ body {
   border-radius: 0.25rem;
 }
 
+.btn__inicio--logo{
+  color: white;
+  background-color:#76789c;
+  border-radius: 0.25rem;
+}
+
 .btn__nosotros{
   color: white !important;
   background-color: #3a4d5e;

@@ -93,6 +93,12 @@ body {
   border-radius: 0.25rem;
 }
 
+.btn__catalogo--footer{
+  color: white !important;
+  background-color:#76789c;
+  border-radius: 0.25rem;
+}
+
 .btn__autores{
   color: white !important;
   background-color: #3a4d5e;

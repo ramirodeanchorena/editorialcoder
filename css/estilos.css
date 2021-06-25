@@ -22,7 +22,7 @@ body {
   margin-right: 0 !important;
   margin-left: 3rem !important;
   box-sizing:content-box !important;
-  max-width: 1160px !important;
+  /*max-width: 1160px !important;*/
 }
 
 .menu__container--row{
@@ -31,6 +31,10 @@ body {
   flex-wrap: wrap !important;
   align-items: center;
   justify-content: center;
+}
+
+.menu{
+  margin-right: 4px;
 }
 
 .nav {
@@ -47,10 +51,6 @@ body {
   font-weight: 500;
 }
 
-.menu{
-   padding-right: 130px;
-   margin-right: 40px;
-}
 
 .btn__inicio{
   color: white !important;
@@ -191,6 +191,8 @@ body {
 .presentacion-fuente{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 .novedades{
@@ -211,7 +213,7 @@ body {
 }
 
 /*footer*/
-#pie {
+#footer {
   background-image: linear-gradient(to right, #354858, #727e8a);
   width: 100%;
   height: 250px;
@@ -226,7 +228,7 @@ body {
   align-content: center;
   justify-content: center;
   text-align: center;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 .menu-footer-estilo{
@@ -275,8 +277,8 @@ body {
 
 .contacto-footer{
   margin-top: 15px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
   width: 300px;
   text-align: center;
   margin-bottom: 25px;
@@ -293,10 +295,10 @@ body {
 }
 
 .copyright-footer{
-  margin-left: 50px;
+  margin-left: 10px;
   margin-top: 60px;
   color: white;
-  margin-right: 50px;
+  margin-right: 25px;
 }
 
 /*estilo en el archivo index.html*/
@@ -309,16 +311,16 @@ body {
 .carousel-control-next-icon {
   background-color: black; }
 
-/*estilo al ID de la sección publicaciones*/
+/*estilo a la clase de la sección publicaciones*/
 .masVendidos{
   margin-left: 30px;
+  margin-right: 30px;
   padding-bottom: 15px;
-  margin-top: 20px;
+  margin-top: 15px;
   padding-left: 0 !important;
   padding-top: 15px;
   font-family: inherit;
   width: auto;
-  height: 10vh;
   margin-bottom: 15px;
   height: 60px;
 }
@@ -342,7 +344,7 @@ body {
   margin-top: 20px;
   margin-left: 0px;
   width: 850px;
-  margin-bottom: 5px !important;
+  margin-bottom: 5px;
  }
 
 /*estilo al títutlo de la sección publicaciones*/
@@ -350,7 +352,6 @@ body {
 .libros-filas{
   width: 900px;
 }
-
 
 .libroContainer{
     width: 170px;
@@ -379,7 +380,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: rgb(191 192 199);
+  background-color: rgb(218 214 214);
   border-radius: 6px;
   height: 540px !important;
   border: 2px solid;
@@ -1057,14 +1058,14 @@ body {
   .menu__container--row{
     display: flex;
     flex-direction: column !important;
-    /*align-items: flex-start;*/
+    align-items: center;
   }
   
   .menu{
     display: flex;
     flex-direction: column !important;
     margin-right: 15px !important;
-    padding-right: 50px;
+    padding-right: 50
   }
 
   .nav{
@@ -1083,9 +1084,10 @@ body {
   .btn{
     background-color: #5271ff !important;
     border: 1px solid #5271ff;
-    margin-right: 4rem !important;
+    margin-right: 2px !important;
     margin-top: 0.5rem !important;
     margin-bottom: 10px !important;
+    margin-left: 2px !important;
   }
 
   .presentacion{
@@ -1165,10 +1167,6 @@ body {
     display: none !important;
   }
 
-  .min-no{
-    display: none !important;
-  }
-
   .contenedor-frases{
     display: flex;
     flex-direction: column !important;
@@ -1196,13 +1194,13 @@ body {
     margin: 20px 5px 10px 5px;
   }
   
-  #pie {
+  #footer {
     background-image: linear-gradient(to right, #354858, #727e8a);
-    width: auto;
+    width: 100%;
     height: 600px !important;
     display: flex;
     flex-direction: column !important;
-    align-items: left !important;
+    align-items: center;
    }
   
   .menu-footer{
@@ -1707,27 +1705,23 @@ body {
   .cabecera{
     height: 300px !important;
     width: 100% !important;
+    background-image: url(../img/header600.png);
   }
+
   .menu__container{
     margin-right: 1rem !important;
     margin-left: 1rem !important;
     width: 95% !important;
   }
 
-  .text-nav{
-    color: white !important;
-  }
-
   .menu__container--row{
-    display: flex;
-    flex-direction: column !important;
+    justify-content: center;
+    align-content: center;
   }
   
   .menu{
-    display: flex;
-    flex-direction: column !important;
     margin-right: 15px !important;
-    padding-right: 50px;
+    padding-right: 1rem;
   }
 
   .nav{
@@ -1757,7 +1751,7 @@ body {
     padding-top: 20px;
     width: 100%;
     height: 640px !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 5px !important;
     align-items: center !important;
   }
 
@@ -1802,7 +1796,7 @@ body {
   }
 
   .novedades{
-    margin-top: 5rem !important;
+    margin-top: 2rem !important;
   }
 
   .novedades::after{
@@ -1820,7 +1814,7 @@ body {
     margin-left: 30px !important;
     margin-right: 20px !important;
     display: flex;
-    flex-direction: column !important;
+    flex-direction: row !important;
     justify-content: flex-start;
     margin-bottom: 1rem !important;
    }
@@ -1835,10 +1829,6 @@ body {
    }
 
   .aside-index{
-    display: none !important;
-  }
-
-  .min-no{
     display: none !important;
   }
 
@@ -1870,22 +1860,18 @@ body {
     margin: 20px 5px 10px 5px;
   }
   
-  #pie {
+  #footer {
     background-image: linear-gradient(to right, #354858, #727e8a);
-    width: auto;
+    width: 100%;
     height: 350px !important;
     display: flex;
     flex-direction: row !important;
-    align-items: left !important;
+    justify-content: center;
     margin-top: 10px;
-   }
-
-   .container-fluid{
-     width: 600px !important;
    }
   
   .menu-footer{
-    margin-right: 60px;
+    margin-right: 10px;
   }
  
   .contacto-footer{
@@ -1903,7 +1889,6 @@ body {
     margin-top: 10px !important;
     padding-right: 10px !important;
     color: white;
-    
   }
 
   /*estilo en nosotros.html para mq*/
@@ -2381,11 +2366,15 @@ body {
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
-
+   
   .cabecera{
+    display: flex;
+    flex-direction: row;
     height: 300px !important;
-    width: 100% !important;
+    width: 100%;
+    background-image: url(../img/header850.png);
   }
+
   .menu__container{
     margin-right: 1rem !important;
     margin-left: 1rem !important;
@@ -2399,14 +2388,7 @@ body {
 
   .menu__container--row{
     display: flex;
-    flex-direction: column !important;
-  }
-  
-  .menu{
-    display: flex;
-    flex-direction: column !important;
-    margin-right: 15px !important;
-    padding-right: 50px;
+    flex-direction: row !important;
   }
 
   .nav{
@@ -2425,7 +2407,7 @@ body {
   .btn{
     background-color: #5271ff !important;
     border: 1px solid #5271ff;
-    margin-right: 4rem !important;
+    margin-right: 1rem !important;
     margin-top: 1rem !important;
     margin-bottom: 10px !important;
   }
@@ -2521,15 +2503,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: rgb(191 192 199);
+    background-color: rgb(218 214 214);
     border-radius: 6px;
     height: 630px !important;
     border: 2px solid;
     border-color: black;
-  }
-
-  .min-no{
-    display: none !important;
   }
 
   .contenedor-frases{
@@ -2560,10 +2538,10 @@ body {
     margin: 20px 5px 10px 5px;
   }
   
-  #pie {
+  #footer {
     background-image: linear-gradient(to right, #354858, #727e8a);
     width: auto;
-    height: 350px !important;
+    height: 300px !important;
     display: flex;
     flex-direction: row !important;
     align-items:flex-start !important;
@@ -3035,12 +3013,6 @@ body {
     display: flex;
     flex-direction: row !important;
   }
-  
-  .menu{
-    display: flex;
-    flex-direction: row !important;
-    margin-right: 15px !important;
-  }
 
   .nav{
     flex-direction: row !important;
@@ -3071,7 +3043,7 @@ body {
   .presentacion{
     display: flex;
     flex-direction: row !important;
-    padding-top: 15px;
+    padding-top: 1rem;
     width: auto;
     height: 450px !important;
     margin-bottom: 10px !important;
@@ -3079,10 +3051,10 @@ body {
   }
 
   .presentacion-container{
-    margin-left: 30px;
-    margin-right: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     width: 100%;
   }
 
@@ -3112,7 +3084,6 @@ body {
 
   .presentacion-fuente{
     font-size:large !important;
-    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
   }
 
   .nosotros-h1::after{
@@ -3127,12 +3098,19 @@ body {
     width: 1000px !important;
   }
 
-  .vendidos{
+  /*.vendidos{
     font-size:xx-large !important;
-  }
+  }*/
 
   .vendidos::after{
-    width: 1000px !important;
+  content: "";
+  display: block;
+  background-color: #272c2b;
+  height: 1px;
+  margin-top: 20px;
+  margin-left: 0px;
+  width: 850px;
+  margin-bottom: 5px;
   }
 
   #seccionPublicaciones {
@@ -3157,21 +3135,10 @@ body {
    }
 
   .aside-index{
-    margin-left: 5px !important;
+    margin-left: 10px !important;
     padding-left: 10px;
-    width: 400px !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: rgb(191 192 199);
-    border-radius: 6px;
+    width: 500px !important;
     height: 630px !important;
-    border: 2px solid;
-    border-color: black;
-  }
-
-  .min-no{
-    display: none !important;
   }
 
   .contenedor-frases{
@@ -3202,18 +3169,18 @@ body {
     margin: 20px 5px 10px 5px;
   }
   
-  #pie {
+  #footer {
     background-image: linear-gradient(to right, #354858, #727e8a);
     width: 100%;
-    height: 350px !important;
+    height: 300px !important;
     display: flex;
     flex-direction: row !important;
     align-items:flex-start !important;
    }
-  
-  .menu-footer{
-    margin-right: 60px;
-  }
+
+   .contacto-footer{
+     margin-right: 10px !important;
+   }
 
   .logo-footer{
     margin-top: 20px !important;
@@ -3222,7 +3189,7 @@ body {
   }
   
   .copyright-footer{
-    margin-left: 0px !important;
+    margin-left: 20px !important;
     margin-top: 10px !important;
     padding-right: 10px !important;
     color: white;

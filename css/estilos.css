@@ -69,6 +69,12 @@ body {
   border-radius: 0.25rem;
 }
 
+.btn__nosotros--footer{
+  color: white !important;
+  background-color:#76789c;
+  border-radius: 0.25rem;
+}
+
 .btn__contacto{
   color: white !important;
   background-color: #3a4d5e !important;

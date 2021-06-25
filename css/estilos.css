@@ -5,7 +5,7 @@ body {
   justify-content: center;
   background-color: #dad6d6; }
 
-/*estilo a la clase cabecera del header, incluido su background-image*/
+/*estilo a la clase cabecera del header, incluyendo su background-image*/
 .cabecera{
   display: flex;
   flex-direction: row;
@@ -18,6 +18,7 @@ body {
   padding-top: 0 !important;
 }
 
+/*estilo al menú de navegación incluido en el header, y al submenú*/
 .menu__container{
   margin-right: 0 !important;
   margin-left: 3rem !important;
@@ -36,13 +37,51 @@ body {
   margin-right: 4px;
 }
 
+.menu ul li:hover{
+  background: #7a848e;
+  border-radius: 4px;
+}
+
+.menu__btn--contacto{
+  padding-bottom: px !important;
+}
+
+.menu ul ul{
+  position: absolute;
+  display: none;
+  padding-left: 5px;
+  margin-top: 5px;
+}
+
+.menu ul ul li{
+  margin-top: 0px;
+  list-style: none;
+  display: block;
+}
+
+.menu ul li:hover ul {
+  display:block;
+}
+
+.submenu{ /*submenú*/
+  padding-left: 0px !important;
+  margin-top: 0 !important;
+}
+
+.submenu__btn--publique{
+  margin-top: 5px !important;
+  padding-top: 5px !important;
+}
+
+.submenu__btn--publique ul li:hover{
+  background: #747880 !important;
+  border-radius: 4px !important;
+}
+
+/*estilo al nav en particular, incluido en el header*/
 .nav {
   width: auto !important;
   justify-content: center !important;
-}
-
-.logo{
-  margin-top: 1rem !important;
 }
 
 .text-nav{
@@ -50,11 +89,15 @@ body {
   font-weight: 500;
 }
 
-
 .btn__inicio{
   color: white !important;
   background-color: #3a4d5e;
   border-radius: 0.25rem;
+}
+
+/*estilo al logo y a su enlace relativo*/
+.logo{
+  margin-top: 1rem !important;
 }
 
 .btn__inicio--logo{
@@ -63,6 +106,7 @@ body {
   border-radius: 0.25rem;
 }
 
+/*esilo en botones del nav y del footer para darle detalles de diseño*/
 .btn__nosotros{
   color: white !important;
   background-color: #3a4d5e;
@@ -111,47 +155,6 @@ body {
   border-radius: 0.25rem;
 }
 
-.menu ul li:hover{
-  background: #7a848e;
-  border-radius: 4px;
-}
-
-.menu__btn--contacto{
-  padding-bottom: px !important;
-}
-
-.menu ul ul{
-  position: absolute;
-  display: none;
-  padding-left: 5px;
-  margin-top: 5px;
-}
-
-.menu ul ul li{
-  margin-top: 0px;
-  list-style: none;
-  display: block;
-}
-
-.menu ul li:hover ul {
-  display:block;
-}
-
-.submenu{
-  padding-left: 0px !important;
-  margin-top: 0 !important;
-}
-
-.submenu__btn--publique{
-  margin-top: 5px !important;
-  padding-top: 5px !important;
-}
-
-.submenu__btn--publique ul li:hover{
-  background: #747880 !important;
-  border-radius: 4px !important;
-}
-
 .btn{
   background-color: #5271ff !important;
   border: 1px solid #5271ff !important;
@@ -167,6 +170,7 @@ body {
   text-decoration: none !important;
 }
 
+/*estilo al botón comprar ubicado en el archivo catálogo.html*/
 .btn__comprar{
   margin-left: 50px !important;
 }
@@ -228,6 +232,7 @@ body {
   padding-right: 4px;
 }
 
+/*estilo en la sección de novedades en el index.html, que incluye un carousel*/
 .novedades{
   margin-left: 30px;
   padding-bottom: 10px;
@@ -254,6 +259,7 @@ body {
   flex-direction: row;
  }
 
+ /*diseño en el menú del footer*/
 .menu-footer{
   list-style: none;
   margin-top: 5px;
@@ -294,6 +300,7 @@ body {
   background: #7a848e;
 }
 
+/*estilo al submenú del footer*/
 .submenu-footer{
   margin-top: 0px !important;
   margin-left: 2px !important;
@@ -308,6 +315,7 @@ body {
   margin-left: 0px;
 }
 
+/*estilo a la sección contacto del footer*/
 .contacto-footer{
   margin-top: 15px;
   margin-left: 10px;
@@ -323,10 +331,12 @@ body {
   color: rgb(242, 241, 247);
 }
 
+/*logo del footer*/
 .logo-footer{
   margin-top: 50px;
 }
 
+/*estilo a la sección copyright del footer*/
 .copyright-footer{
   margin-left: 10px;
   margin-top: 60px;
@@ -335,10 +345,7 @@ body {
 }
 
 /*estilo en el archivo index.html*/
-/*estilo en <main> para la clases, etquietas e ID allí incluidos*/
-
-/*carousel en index.html*/
-.carousel-control-prev-icon {
+.carousel-control-prev-icon { /*carousel en index.html*/
   background-color: black !important; }
 
 .carousel-control-next-icon {
@@ -380,8 +387,7 @@ body {
   margin-bottom: 5px;
  }
 
-/*estilo al títutlo de la sección publicaciones*/
-
+ /*estilo a la sección de los libros más vendidos en index.html*/
 .libros-filas{
   width: 900px;
 }
@@ -406,6 +412,7 @@ body {
     background-color: rgb(20, 95, 145) !important;
 }
 
+/*estilo del aside ubicado en el main del archivo index.html*/
 .aside-index{
   margin-left: 20px;
   padding-left: 20px;
@@ -441,6 +448,7 @@ body {
   margin-top: 8px;
 }
 
+/*estilo a la sección de frases de escritores ubicada en index.html*/
 .contenedor-frases{
   display: flex;
   flex-flow: row wrap;
@@ -473,15 +481,7 @@ body {
   text-align: center;
 }
 
-
-/*estilo para resaltar libros nuevos en sección publicaciones*/
-/*.badge {
-  background-color: #145f91 !important; }*/
-
-
 /*estilo en el archivo catalogo.html */
-/*variables*/
-/*para que la etiqueta h3 de esta sección sea de color rgb(59, 57, 58)*/
 .tituloCatalogo {
   color: #3b393a; 
   margin-top: 1.5rem;
@@ -545,13 +545,6 @@ body {
     padding-top: auto; }
 
 /* estilo en autores.html */
-.autores-separador{
-  width: 100%;
-  height: 180px;
-  padding-bottom: 20px;
-  margin-bottom: 5px;
-}
-
 .autores-h1{
   padding: 10px;
   height: 40px;
@@ -712,70 +705,10 @@ body {
     width: 47%;
     color: black; }
 
-/*más caracaterísticas en el bloque de la clase "autores"*/
-.autores .btn {
-  text-align: left;
-  justify-content: left;
-  background-color: royalblue;
-  margin-left: 10px;
-  margin-top: 5px;
- }
-
-
-/*para que los nombres de los autores en la lista de la sección autores.html sean de color negro*/
-.autores li h3 {
-  color: black;
-  /*para brindarle bordes a cada class correspondiente a un autor*/ }
-
-.autores ul {
-  border: solid 2px black;
-  list-style: none; }
-
-
 /* estilo en el archivo nosotros.html */
-/*variables*/
-/*aplicar grid en la clase .nosotros*/
-.grid-nosotros {
-  display: grid;
-  grid-template-areas: 
-  "historia staff"
-  "historia staff"
-  "historia staff";
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 20% 40% 40%;
-  background-color: #dad6d6;
-  width: 100%;
-  height: 100%;
-  margin-bottom: 1.5rem;
-  /*modelar el título del archivo*/ }
-
-/*para darle estilo y fuente Raleway de Google Fonts al párrafo de la página*/
-.historia {
-  grid-area: historia;
-  border: solid 2px black;
-  padding: 20px;
-  text-align: justify;
-  line-height: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: #98d2e4;
-  margin: 0px 2.5px 5px 5px;
-  height: 100%; }
-  .historia .historia__titulo {
-    /*características al h3 de la class historia*/
-    font-weight: bold;
-    margin-left: 0;
-    margin-bottom: 1rem;
-   }
-  .historia .historia__titulo--fuente {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.5em;;
-   }
-
 .foto-oficina{
   text-align: center;
 }
-
-/*para darle estilo y fuente de Google Fonts a la sección "Nuestro staff"*/
 
 .integrantes{
   width: auto;
@@ -794,7 +727,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .historia-container{
   width: 100%;
   height: 400px;
@@ -804,8 +736,6 @@ body {
   margin-bottom: 2rem;
   margin-top: 5rem !important;
 }
-
-
 
 .bloque-contenedor-historia{
   width: auto;
@@ -859,7 +789,7 @@ body {
   border-radius: 4px;
   margin-bottom: 15px;
 }
-
+/*título del newsletter*/
 .titulo-nw{
   margin-left: 50px;
 }
@@ -870,6 +800,7 @@ body {
   padding: 5px;
 }
 
+/*imagen del newsletter*/
 .imagen-nw{
   padding: 15px;
   padding-right: 2px !important;
@@ -893,6 +824,7 @@ body {
   margin-bottom: 12px;
 }
 
+/*estilo a la sección de datos en contacto.html*/
 .datos{
   width: 100%;
   height: 400px;
@@ -926,6 +858,7 @@ body {
   margin-left: 25px;
 }
 
+/*formulario en contacto.html*/
 .formulario-datos{
   padding: 15px;
   margin-top: 25px;
@@ -979,17 +912,11 @@ body {
   width: 70px;
 }
 
-
-#formulario {
-  /*para brindarle color al texto y al fondo del formulario en la página contacto.html*/
-  color: black;
-  background-color: grey; }
-
-
 /*estilo al archivo publique.html*/
 .titulo-h1 {
   margin-bottom: 20px; }
 
+/*estilo al ID publique en publique.html*/
 #publique{
   width: auto !important;
   height: 430px !important;
@@ -1012,6 +939,7 @@ body {
   text-align: center;
   }
 
+/*estilo al formulario en publique.html*/
 .mail {
   margin-left: 10px !important;
   margin-right: 10px;
@@ -1085,6 +1013,7 @@ body {
   margin-bottom: 2rem;
 }
 
+/*estilo a media query max-width 480px*/
 @media (max-width: 480px){
 
   .cabecera{

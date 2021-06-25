@@ -77,32 +77,35 @@
         </div>
     </section>
 
-    <!--sección donde el usuario dejará su email y podrá adjuntar un libro-->
-    <section id="publique"> <!--título de la página e inicio del formulario con etiqueta h4-->
-        <div class="publique-h3">
-            <h3 class="publique-h3-texto">Deje su dirección de email, un resumen de su libro y adjunte su archivo</h3>
-        </div>
-
-        <!--formulario donde el usuario deja su email y resume su proyecto-->
-        <div class="mail">
-            <label for="ejemploInput1" class="mail-titulo">Dirección de email</label>
-            <input type="email" class="form-control form-control--mail" id="ejemploInput1" placeholder="ejemplo: nombre@gmail.com">
-        </div>
-        <div class="resumen">
-            <label for="ejemploBreveResumen" class="resumen-escriba">Escriba un breve resumen de su libro</label>
-            <textarea class="form-control resumen-ancho" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-
-        <!--sección donde se adjunta el archivo y se envían los datos completados-->
-        <fieldset class="adjunte">
-            <h3 class="adjunte-h3">Adjunte su archivo y haga clic en enviar</h3>
-            <label for="adjuntar"></label>
-            <input type="file" value="Adjuntar archivo"/>
-            <div class="enviar">
-                <button type="button" class="btn btn-warning btn-enviar">Enviar</button>
+    <!--Aquí comienza el main del archivo publique.html-->
+    <main>
+        <!--Inicio de la sección publique, donde el usuario dejará su email y podrá adjuntar un libro-->
+        <section id="publique"> <!--título de la seción-->
+            <div class="publique-h3">
+                <h3 class="publique-h3-texto">Envíe su libro</h3>
             </div>
-        </fieldset>
-    </section>
+
+            <!--formulario donde el usuario deja su email y resume su proyecto-->
+            <div class="mail">
+                <label for="ejemploInput1" class="mail-titulo">Dirección de email</label>
+                <input type="email" class="form-control form-control--mail" id="ejemploInput1" placeholder="ejemplo: nombre@gmail.com">
+            </div>
+            <div class="resumen">
+                <label for="ejemploBreveResumen" class="resumen-titulo">Escriba un breve resumen de su libro</label>
+                <textarea class="form-control form-control-width" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <!--fieldset donde se adjunta el archivo y se envían los datos completados-->
+            <fieldset class="adjunte">
+                <h3 class="adjunte-h3">Adjunte su archivo y haga clic en enviar</h3>
+                <label for="adjuntar"></label>
+                <input class="adjunte-advertencia" type="file" value="Adjuntar archivo"/>
+                <div class="enviar">
+                    <button type="button" class="btn btn-warning btn-enviar">Enviar</button>
+                </div>
+            </fieldset>
+        </section>
+    </main>
 
     <!--Aquí comienza el footer, que será el mismo en todos los archivos .html con cambios según media query-->
     <footer id="footer" class="container-fluid">
